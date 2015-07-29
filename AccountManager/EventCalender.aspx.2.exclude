@@ -1,0 +1,61 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/AccountManager/AccountManager.master" AutoEventWireup="true"
+    CodeFile="EventCalender.aspx.cs" Inherits="Parents_EventCalender" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+   <%-- <section class="dash_mid_wrapp">
+                    	  <section class="achiv_toptitle">Event Calender </section>
+   
+                    </section>--%>
+                    
+                    
+                    
+                  
+            			 <section class="top_row">
+                         <section class="achiv_toptitle">Event Calender</section>
+                          <section class="top_row_back"><a href="javascript:history.go(-1)" title="Back">BACK</a></section>
+                    <%--        <section class="dow_icon sprite rF"><a href="#url"></a></section> 
+                            <section class="print_icon sprite rF"><a href="#url"></a></section> --%>
+                          <section class="clear"></section>
+                         </section>
+                         
+                         <asp:ListView ID="listHolidaycalender" runat="server" >
+                            <LayoutTemplate>
+                                <table id="Table1" class="event_cal_table">
+                         	<thead>
+                            	<tr>
+                                	<th>Date</th>
+                                    <th>Day</th>
+                                    <th>Event Name</th>
+                                    <th>Time</th>
+                                </tr>
+                            </thead>
+                            
+                    <tr id="itemPlaceholder" runat="server" ></tr> 
+                </table>
+           </LayoutTemplate>
+            
+                        
+                   <ItemTemplate>
+                          
+                       
+                          <tr>
+                          
+                                   <td class="bg_white">
+                                   <asp:Label ID ="lbldate" runat ="server"  Text ='<%#Eval("Daydate")%>'></asp:Label>
+                                   </td>
+                                        <td class="bg_white"> <asp:Label ID ="Label1" runat ="server"  Text ='<%#Eval("NameOfDay")%>'></asp:Label></td>
+                                        <td class="bg_white"> <asp:Label ID ="Label2" runat ="server"  Text ='<%#Eval("EC_EventName")%>'></asp:Label></td>
+                                        <td class="bg_white"> <asp:Label ID ="Label3" runat ="server"  Text ='<%#Eval("EC_EventStartTime")%>'></asp:Label>- <asp:Label ID ="lblffg" runat ="server"  Text ='<%#Eval("EC_EventEndTime")%>'></asp:Label></td>
+                             </tr>
+                                 
+           </ItemTemplate>
+                            
+                        </asp:ListView>
+                		
+              			
+                  
+                    
+                    
+</asp:Content>

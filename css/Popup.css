@@ -1,0 +1,105 @@
+﻿body {
+	font:12px/18px Arial, Helvetica, sans-serif;
+	background:#fff url(../img/main_bg.jpg) repeat-x center top;
+	margin: 0;
+	padding: 0;
+	color: #454545;
+}
+section{display:block;}
+dl { display:block; width:100%;}
+.popup_wrapp{   width: 712px;    background: #fff;    border: 1px solid #eae6cd;    position: absolute;    top: 100px;    left: 10px;    z-index: 99999;    padding: 10px;}
+.pop_main_box
+{
+    width: 652px;
+    border: 1px solid #acacac;
+    padding: 30px;
+    position: relative;
+}
+.close_icon_popup
+{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+.popup_title
+{
+    font: normal 18px "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    color: #454545;
+    padding: 0px 0px 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #acacac;
+}
+.inv_title
+{
+    background: url(../img/dark_gray_texture.jpg) repeat left top;
+    border: 1px solid #afaca3;
+    height: 39px;
+    padding: 0px 15px;
+    line-height: 39px;
+    margin: 0px;
+}
+.tofrom_box
+{
+    border: 1px solid #e7e5dd;
+    padding: 17px 15px;
+    border-top: 0px solid #fff;
+    margin-bottom: 30px;
+}
+.tofrom_box dl
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.tofrom_box dl dd
+{
+    float: left;
+    width: 50%;
+}
+.tofrom_box dl dd span
+{
+    font-weight: bold;
+    color: #999;
+}
+.sta_box
+{
+    margin: 0px;
+    padding: 0px;
+    line-height: 24px;
+}
+.inst_title
+{
+    background: url(../img/dark_gray_texture.jpg) repeat left top;
+    border: 1px solid #afaca3;
+    border-bottom: 0px solid #fff;
+    height: 39px;
+    text-align: center;
+    margin: 0px;
+    font: bold 14px/39px Arial, Helvetica, sans-serif;
+}
+.total_box
+{
+    margin: 0px;
+    padding: 0px;
+}
+.total_box dl
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.total_box dl dt
+{
+    float: left;
+    text-align: right;
+    width: 580px;
+}
+.total_box dl dd
+{
+    float: right;
+    width: 70px;
+    text-align: right;
+}

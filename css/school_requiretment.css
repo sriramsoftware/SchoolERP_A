@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.sr_nav_wrapp{width:738px; height:173px; background:url(../img/school_requiretment_sprite.png) no-repeat 0px 0px; margin-bottom:30px; }
+.sr_nav_wrapp ul{margin:0px; padding:0px; list-style:none;}
+.sr_nav_wrapp ul li{float:left; list-style-type:none; text-align:center; margin-right:1px;}
+.sr_nav_wrapp ul li a{color:#0d8eb9; font:bold 12px/40px Arial, Helvetica, sans-serif;}
+.sr_nav_wrapp ul li a:hover{color:#454545;}
+.sr_nav_wrapp ul li#tc a{width:180px; height:40px; padding-top:133px; display:block;}
+.sr_nav_wrapp ul li#tc a:hover{width:180px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  0px -183px;}
+.sr_nav_wrapp ul li#tc .active{width:180px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  0px -183px; color:#454545;}
+.sr_nav_wrapp ul li#td a{width:191px; height:40px; padding-top:133px; display:block;}
+.sr_nav_wrapp ul li#td a:hover{width:191px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  -181px -183px;}
+.sr_nav_wrapp ul li#td .active{width:191px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  -181px -183px; color:#454545;}
+.sr_nav_wrapp ul li#ld a{width:183px; height:40px; padding-top:133px; display:block;}
+.sr_nav_wrapp ul li#ld a:hover{width:183px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  -373px -183px;}
+.sr_nav_wrapp ul li#ld .active{width:183px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  -373px -183px; color:#454545;}
+.sr_nav_wrapp ul li#labo a{width:180px; height:40px; padding-top:133px; display:block;}
+.sr_nav_wrapp ul li#labo a:hover{width:180px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  -557px -183px;}
+.sr_nav_wrapp ul li#labo .active{width:180px; height:40px; padding-top:133px; background:url(../img/school_requiretment_sprite.png) no-repeat  -557px -183px; color:#454545;}
+
+
+
+.gree_ttitle{font:bold 14px Arial, Helvetica, sans-serif; color:#86ae18; border-bottom:1px solid #d8d6d0; padding-bottom:10px; margin-bottom:10px;}
+
+
+.transport_wrapp{border:1px solid #d7d7d7; padding:15px 15px 15px 130px;}
+.transport_wrapp .bus_title{font:bold 13px Arial, Helvetica, sans-serif; color:#ffb243; margin-bottom:10px;}
+table.bus_requir{width: 60%; margin-bottom:20px;  font-size: 12px; border-collapse: collapse; text-align: left; vertical-align: top;}
+table.bus_requir th{text-align: left; padding:10px;	border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+table.bus_requir td{padding:5px 10px; border: 1px solid #d8d6d0; vertical-align: top; background:#fff; color:#454545;}
+
+table.bus_driver{width: 80%; margin-bottom:20px; font-size: 12px; border-collapse: collapse; text-align: left; vertical-align: top;}
+table.bus_driver th{text-align: left; padding:10px;	border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+table.bus_driver td{padding:5px 10px; border: 1px solid #d8d6d0; vertical-align: top; background:#fff; color:#454545;}
+
+
+/*---- Principal Expenditure Teachers Page ----*/
+.total_amt_box{border:1px solid #d2d2d2; padding:5px 15px; font:bold 14px/40px  Arial, Helvetica, sans-serif;}
+.total_amt_box span{color:#d36300;}
+
+
+/*---- Principal Expenditure Transport Driver Page ----*/
+.bus_sort_box{border-bottom:1px solid #d2d2d2; margin-bottom:10px; padding-bottom:10px;}

@@ -1,0 +1,102 @@
+/*~~~~~~~~School Details~~~~~~~~~*/
+.quicklink_toptitle{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; padding-bottom:7px;}
+.quicklink_toptitle span{ color:#0d8eb9; }
+.quicklink_wrapper{ width:714px; float:left;}
+.quicklink_block_wrapper{ width:684px; float:left; border:1px solid #e5e5e5; padding:0px 15px;}
+.school_details_headings{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#ef8811; background:url(../img/orange_arrow.png) no-repeat 0 3px ; padding-left:25px;}
+.quicklink_inner_block{ border-bottom: 1px dashed #dedad1; padding-top:15px;}
+.quicklink_inner_block p{padding-bottom:15px;}
+.no_border{border:none;}
+
+/*~~~~~~~~School At Glance~~~~~~~~~*/
+table.school_at_glance{width: 100%; margin:0px auto 30px; font-size: 12px; border-collapse: collapse; text-align: left; vertical-align: top;}
+table.school_at_glance th{text-align: left; padding:10px;	border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+table.school_at_glance td{padding:5px 10px; border: 1px solid #d8d6d0; vertical-align: top; background:#fff; color:#454545;}
+table.school_at_glance td span{ font-weight:bold; }
+table.school_at_glance td ul{ padding-left:15px; list-style-type:circle;}
+.quicklink_heading2{font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#86ae18;padding:7px 0px; border-bottom:1px solid #e7e5dd; font-weight:bold;}
+
+/*~~~~~~~~Faculty~~~~~~~~~*/
+.faculty_wrapp dl{margin:0px 0px 10px; padding:0px 0px 10px; display:block; width:50%; float:left; margin-top:10px;}
+.faculty_wrapp dl dt{width:67px; float:left; margin-right:12px;}
+.faculty_wrapp dl dd{width:240px; float:left; margin:0px !important;}
+.faculty_wrapp dl dd .date_box{color:#999999; font-size:11px;}
+.faculty_wrapp dl dd .date_box a{font-weight:bold; font-size:12px;}
+.faculty_img_box{ border:1px solid #ccc; padding:3px; text-align:center; height:58px; width:60px;}
+.img_wrap{padding:5px; border:1px solid #ccc; float:left}
+.blu_border { background: url("../img/blue_border.png") no-repeat scroll left top transparent; padding-top: 15px;}
+
+
+
+/*~~~~~~ News & Events Page ~~~~~~*/
+.latest_news_wrapp{margin:0px; padding:0px;}
+.latest_news_wrapp dl{margin:0px 0px 10px 0px; padding:0px 0px 10px 0px; width:100%; display:block; background:url(../img/orng_border.png) repeat-x left bottom;}
+.latest_news_wrapp dl dt{width:142px; height:142px; float:left; background:#fff; border:1px solid #e7e7e7; padding:3px;}
+.latest_news_wrapp dl dd{width:554px; float:right;}
+.latest_news_wrapp dl dd .news_title{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:3px;}
+.latest_news_wrapp dl dd .news_date{font:italic 12px Arial, Helvetica, sans-serif; color:#9b9a9a; margin-bottom:5px;}
+.latest_news_wrapp dl dd article{text-align:justify; line-height:18px; color:#454545; margin-bottom:10px;}
+
+
+
+/*~~~~~~ Teacher Funstuff ~~~~~~*/
+.funstuff_wrap {
+    background: url("../img/right_nav_bg.jpg") repeat scroll left top transparent !important;
+    border: 1px solid #E7E5DD !important;
+    margin: 0;
+    padding: 15px !important;
+}
+.teacher_funstuff_wrap{margin:0px; padding:0px;}
+.teacher_funstuff_wrap dl{margin:0px 0px 10px 0px; padding:0px 0px 10px 0px; width:100%; display:block; background:url(../img/orng_border.png) repeat-x left bottom;}
+.fun_right_block{padding-left:20px; padding-top:30px;}
+.teacher_funstuff_wrap dl dt{width:290px; height:290px; float:left; padding:3px;}
+.teacher_funstuff_wrap dl dd{width:400px !important; float:right;}
+.teacher_funstuff_wrap dl dd .title{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:3px;}
+.teacher_funstuff_wrap dl dd .date{font:italic 12px Arial, Helvetica, sans-serif; color:#9b9a9a; margin-bottom:5px;}
+.teacher_funstuff_wrap dl dd article{text-align:justify; line-height:18px; color:#454545; margin-bottom:10px;}
+.flower_bg{background :url(../img/funstuff_img_bg.png); background-repeat:no-repeat; background-position:0px 0px; width:296px; height:290px; padding-top:35px; padding-left:41px;} 
+.funstuff_search_top{ border-bottom:1px solid #dbd9d2; padding-bottom:15px; margin-bottom:10px;}
+.funstuff_search_top span{ float:right;}
+.funstuff_search_top select {
+    border: 1px solid #C7C6C2;
+    border: 1px solid #C7C6C2;
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    color: #656565;
+    color: #656565;
+    height: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 125px;
+}
+
+/*Image Gallary*/
+.photo_gallery_wrapper{ border:1px solid #e5e5e5; padding:24px; }
+.photo_gallery_title{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size: 18px;text-transform: uppercase; color:#86AE18;}
+.photo_gallery_inner_block{ width:100%;}
+.gallery_blue_border{background: url("../img/blue_border.png") no-repeat scroll left bottom transparent; padding-bottom:10px; margin-bottom:15px;}
+.photo_gallery_inner_block ul{ list-style-type:none;margin-bottom:20px;}
+.photo_gallery_inner_block ul li{display:inline; padding-right:26px; float:left;}
+.photo_gallery_inner_block ul li.last_img{padding-right:0px !important; float:left;}
+.photo_gallery_inner_block .img_box{background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 127px;
+    padding: 4px;
+    width: 187px;}
+.photo_gallery_inner_block .img_box img{border:0px solid #fff!important;}
+.photo_gallery_inner_block ul li .img_title{ text-align:left; padding-top:7px;width:107px;}
+
+
+
+
+/*news decription2*/
+
+.latest_news_wrapp1{margin:0px; padding:0px;}
+.latest_news_wrapp1 dl{margin:0px 0px 10px 0px; padding:0px 0px 10px 0px; width:100%; display:block; background:url(../img/orng_border.png) repeat-x left bottom;}
+.latest_news_wrapp1 dl dt{width:142px; height:142px; float:left; background:#fff; border:1px solid #e7e7e7; padding:3px;}
+.latest_news_wrapp1 dl dd{width:326px; float:right;}
+.latest_news_wrapp1 dl dd .news_title{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:3px;}
+.latest_news_wrapp1 dl dd .news_date{font:italic 12px Arial, Helvetica, sans-serif; color:#9b9a9a; margin-bottom:5px;}
+.latest_news_wrapp1 dl dd article{text-align:justify; line-height:18px; color:#454545; margin-bottom:10px;}

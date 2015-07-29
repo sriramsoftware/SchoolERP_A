@@ -1,0 +1,18 @@
+.tbl_main_titl { display:block; text-align:center; color:#DD2F00; font-size:20px;}
+.tbl_sub_titl { display:block; text-align:center; padding:5px; border-bottom:1px solid #D8D6D0; }
+.student_wrapper { margin:0 0 15px 0; padding:10px 0 10px 0;}
+.student_profile { width:350px;}
+.student_profile h2 { color:#0D8EB9}
+.student_profile span { color:#86AE18}
+.student_profile dl { margin:0 0 5px 0; padding:2px 0px; border:none; font-size:14px; }
+.student_profile dl dt { float:left; width:150px;}
+.student_profile dl dd { margin-left:155px; width:65%; float:none;}
+
+.formality { display:inline-block; margin-bottom:10px; }
+.formality p { float:left; width:130px; font-size:14px; font-weight:bold; text-indent:10px;} 
+.att_recored { margin-bottom:20px!important;}
+.table_ft { width:98%; display:block; padding:5px; border:solid 1px #BEBEBE; background:#DDD; text-align:center; color:#CC6D00 ; font-size:14px; }
+.txtcenter {text-align:center;}
+.school_reopend { padding:10px 10px 20px 10px; text-align:center;  border:solid 1px #ccc; background:#fff; color:#CC6D00 ;}
+.font20 { font-size:20px;}
+.top_bdr { border-top: solid 1px #D8D6D0; padding-top:5px;}

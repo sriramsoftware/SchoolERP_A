@@ -1,0 +1,133 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/AccountManager/AccountManager.master" AutoEventWireup="true" CodeFile="ViewAccoutantSalary.aspx.cs" Inherits="TMSchoolMgmt_AccountManager_ViewAccoutantSalary"%>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="../css/salary_css1.css" rel="stylesheet" type="text/css">
+</link>
+    <link href="../css/Accountant.css" rel="stylesheet" type="text/css">
+</link>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+<section class="top_row">
+        <section class="achiv_toptitle">
+            Salary <span> Details</span>
+        </section>
+        <section class="top_row_back">
+            <a href="javascript:history.go(-1)" title="Back">BACK</a></section>
+        <section class="clear">
+        </section>
+    </section>
+
+   <fieldset>
+        <section class="right_content tabsec_topsecn " style="width: 690px!important;">
+                                <section class="font14 textbold yellowtext">Pay-Period & Salary</section>
+                                    
+                                    <section>
+                                     <section class="newform">
+                                   
+                                                                            
+                                      <dl>
+                                       <dt>Basic Salary (Per &nbsp; <asp:Label ID ="lblBasicSalryType" runat ="server"  ></asp:Label> )</dt>
+                                       <dd>
+                                       <asp:Label  ID ="lblBasicSalary" runat ="server" ></asp:Label>
+                                       </dd>
+                                      </dl>                                     
+                                      </section>
+                  <section class="clear"></section>
+                                    </section>
+                                    
+                                                                 
+                                     <section class="font14 textbold yellowtext">Deduction Details</section>
+                                     <section>
+                                     <section class="newform"> 
+                                  
+                                     <section class="font14 textbold yellowtext" style="color:Black"> Provident Fund Facility</section>
+                                  
+                                     <dl id ="liratepf" runat ="server" >
+                                       <dt> Rate(PF Facility):</dt>
+                                      
+                                     <dd>
+                                      <asp:Label  ID ="lblPFrateper" runat ="server" ></asp:Label>%
+                                     </dd>
+                                     
+                                      </dl>
+                                      <section class="clear"></section>
+                                      <dl id ="lirateamountPF" runat ="server" >
+                                       <dt>
+                                       
+                                 Amount: </dt>
+                                     <dd><asp:Label  ID ="lblPFAmount" runat ="server"  ></asp:Label></dd>
+                                      </dl>
+                                      
+                                      
+                                      <section class="clear"></section>
+                                      </section > 
+                                   
+                                      </section> 
+                                      
+                                       <section class="clear"></section>
+                                       <section class="font14 textbold yellowtext" style="color:Black "> E.S.I. Facility</section>
+                                       <section> 
+                                         <section class="newform"> 
+                                        <section class="clear"></section>
+                                       <dl id ="dlrateESI" runat ="server" >
+                                       <dt>
+                                     
+                                      Rate(E.S.I. Facility): 
+                                     </dt>
+                                      <dd> <asp:Label  ID ="lblESIrate" runat ="server"  ></asp:Label>  %</dd>
+                                      </dl>
+                                      <section class="clear"></section>
+                                       <dl id ="dlamountESI" runat ="server" >
+                                       <dt> 
+                                      Amount:  </dt>
+                                    <dd> <asp:Label  ID ="lblESIamount" runat ="server" ></asp:Label></dd>
+                                      </dl>
+                                      <section class="clear"></section>
+                                      </section>
+                                      </section> 
+                                      
+                                       <section class="clear"></section>
+                                      <section class="font14 textbold yellowtext">Days Details</section>
+                                      <section>
+                                     <section class="newform"> 
+                                  
+                                       <dl>
+                                       <dt> Half Day Hours : &nbsp;</dt>
+                                      <dd> <asp:Label ID ="lblhalfdayhour" runat ="server" >
+                                       
+                                       </asp:Label></dd>
+                                      </dl>
+                                      
+                                      <section class="clear"></section>
+                                       <dl class="textbold">
+                                       </dl> 
+                                       <dl>
+                                       <dt>Flexible Hours :  &nbsp;   </dt>
+                                      <dd> <asp:Label ID ="lblFelxibal" runat ="server"  > </asp:Label></dd>
+                                      </dl>  
+                                      <section class="clear"></section>   
+                                      </section> 
+                                      </section>         
+                                     
+        <section class="clear"></section>
+        
+         <section class="clear"></section>
+        <section class="border marginbot_10"></section>
+        <section class="font14 textbold
+        yellowtext">Number of LC / EL converted in Half Day or Full Day deduction</section>
+        <section> 
+        <section class="newform"> <dl> <dt>LC / EL :</dt> <dd><asp:Label ID ="lblletcomeearlygone"
+        runat ="server" > </asp:Label></dd> </dl> <section class="clear"></section> <dl
+        id ="LinumberOfhalfDay" runat ="server" > <dt>&nbsp;Number of Half Day :</dt> <dd>
+        <asp:Label ID ="lblconvertHalfday" runat ="server" > </asp:Label></dd> </dl> <dl
+        id ="LinumberOffullDay" runat ="server" > <dt>&nbsp;Number of Full Day : </dt> <dd>
+        <asp:Label ID ="lblconvertFullday" runat ="server" > </asp:Label> </dd> </dl> <dl><b>Note
+        :</b> LC and EL stands for Late Comings and Early Leaving</dl> 
+        </section> 
+        </section>
+    </fieldset>
+                                 <asp:HiddenField ID ="HiddId" runat ="server" />
+
+</asp:Content>
+

@@ -1,0 +1,215 @@
+﻿body {
+	font:12px/18px Arial, Helvetica, sans-serif;
+	background:#fff ;
+	margin: 0;
+	padding: 0;
+	color: #454545;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl, dd, dt { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+section{display:block;}
+dl { display:block; width:100%;}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding: 0px;
+	padding: 0px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+
+/* PARAGRAPH STYLES */
+
+
+ .errorbox{color:#f00; font-size:12px; background:#fff2cc; border:1px solid #ffc96b; padding:2px 10px; text-align:center; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; margin:5px 10px;}
+
+
+A { color:#0d8eb9; text-decoration:none;}
+/*A:visited{ text-decoration:none; color:#;}*/
+A:hover {color:#454545; text-decoration:none;}
+/*A:active { text-decoration:none; color:#;}*/
+A:focus {outline:none;}
+
+.link{ color:#b72f1c; font-weight:bold; font-size:14px;}
+:focus {outline: 0;}
+fieldset, img {border:0;}
+q:before, q:after {	content:'';}
+
+input, textarea, select {font-family:inherit; font-size:inherit; font-weight:inherit;}
+
+.clear {clear: both!important;}
+.lF {float:left!important;}
+.rF {float:right!important;}
+.nomrg{margin:0px!important;}
+.margtb25{margin:25px 0px!important;}
+.bord_non{border:0px solid #fff!important;}
+.bg_none{background:none!important;}
+.txt_al_cen{text-align:center!important;}
+.sprite{background:url(../img/sprite.png) no-repeat left top;}
+
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+
+/* -- Header -- */
+header{width:100%; height:463px; background:url(../img/hd_bg.png) no-repeat top center;}
+.top_nav{text-align:right; padding-top:17px; position:relative;}
+.top_nav ul{margin:0px; padding:0px; list-style:none;}
+.top_nav ul li{display:inline; color:#2c2c2c; border-right:1px solid #2c2c2c; font:normal 13px Arial, Helvetica, sans-serif;}
+.top_nav ul li a{color:#2c2c2c; padding:0px 5px;}
+.top_nav ul li a:hover{color:#063bbc;}
+.top_nav ul li:last-child{border-right:0px solid #fff; background:url(../img/blue_down_arrow.png) no-repeat 80px 7px; padding-right:10px; position:relative;}
+.top_nav ul li:last-child .sel_lang_box{position:absolute; display:none; border:1px solid #ddd; border-top:0px solid #fff; left:-4px; top:17px; z-index:99999!important; padding:5px 10px; background:#fff;}
+.top_nav ul li:last-child .sel_lang_box a{padding:0px!important;}
+.logo{position:absolute; left:-6px; top:7px;}
+
+/*-- Navigation --*/
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top:0;
+border: 1px solid #98bb36; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+border-top-width: 0;
+font:normal 14px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+z-index:100;
+background-color:#a7cb43;
+width: 200px;
+visibility: hidden;
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 10px;
+border-bottom: 1px solid #98bb36; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+color:#475c0b;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+color:#fff;
+}
+
+
+
+
+/*-- Banner and Login --*/
+.bl_box{margin:39px 0px 0px 0px; padding:0px;}
+.bl_box .banner_wrapp{width:613px; height:298px; border:1px solid #ccd8e5; padding:9px; background:#fff; float:left;}
+/*
+ * Required 
+*/
+.banner_container { width:611px; height:298px; overflow:hidden; position:relative; cursor:pointer; }
+.slides { position:absolute; top:0; left:0; }
+.slides > div { position:absolute; top:0; width:611px; display:none; }
+/*
+ * Optional
+*/
+#loopedSlider,#newsSlider { margin:0 auto; width:611px; position:relative; clear:both; }
+ul.pagination { list-style:none; padding:0; margin:0; position:absolute; bottom:5px; right:29px; }
+ul.pagination li  { float:left; width:12px; height:12px;  background:url(../img/white_dot.png) no-repeat left top; text-indent:-9999px; margin-left:5px; }
+ul.pagination li a {width:12px; height:12px;  background:url(../img/white_dot.png) no-repeat left top; text-indent:-9999px; display:block; }
+ul.pagination li.active a {background:url(../img/green_dot.png) no-repeat left top;  text-indent:-9999px;}
+
+.login_wrapp{width:304px; height:318px; background-position:0px 0px; float:right; text-align:center;}
+.login_wrapp h1{font:normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-transform:uppercase; text-shadow:0px 2px #0c7e9e; -moz-text-shadow:0px 2px #0c7e9e; -webkit-text-shadow:0px 2px #0c7e9e; padding-bottom:25px; background:url(../img/login_title_bg.png) no-repeat center bottom; margin-top:17px;}
+.login_wrapp dl{margin:0px; padding:0px; display:block;width:100%;}
+.login_wrapp dl dd{margin:0px; padding:0px; min-height:57px;}
+.login_wrapp .select{width:226px; height:37px; background:#fff; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; border:0px solid #fff; font:normal 13px Arial, Helvetica, sans-serif; color:#454545; padding:8px; box-shadow:0px 2px #0e82a8; -moz-box-shadow:0px 2px #0e82a8; -webkit-box-shadow:0px 2px #0e82a8;}
+.login_wrapp input[type=text], input[type=password]{width:206px; height:37px; background:#fff; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; border:0px solid #fff; font:normal 13px/37px Arial, Helvetica, sans-serif; color:#454545; padding:0px 10px; box-shadow:0px 2px #0e82a8; -moz-box-shadow:0px 2px #0e82a8; -webkit-box-shadow:0px 2px #0e82a8;}
+.login_wrapp input[type=password]{width:206px; height:37px; background:#fff; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; border:0px solid #fff; font:normal 13px/37px Arial, Helvetica, sans-serif; color:#454545; padding:0px 10px; box-shadow:0px 2px #0e82a8; -moz-box-shadow:0px 2px #0e82a8; -webkit-box-shadow:0px 2px #0e82a8;}
+.fp_box{float:left; font-size:11px; line-height:37px; padding-left:39px;}
+.fp_box a{color:#0b5268}
+.fp_box a:hover{color:#fff;}
+.bt_box{float:right; padding-right:35px;}
+.login_wrapp input[type=submit]{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:6px 20px; box-shadow:0px 1px #0c7598; cursor:pointer;}
+.login_wrapp input[type=submit]:hover{color:#fff;}
+
+
+/*-- Main Content --*/
+.main_inner_wrapp{margin:40px 0px 10px; clear:both;}
+
+
+/*-- Left Content --*/
+.left_wrapp{width:714px; float:left;}
+.fcd_box{margin:0px 0px 22px; padding:0px 0px 30px; background:url(../img/orng_border.png) no-repeat left bottom;}
+.fcd_box .fac_box{width:212px; float:left; height:127px; border:1px solid #cccccc; padding:4px; position:relative; margin-right:24px;}
+.fcd_box .fac_box .title_box{width:212px; height:25px; background:url(../img/tran_bg.png) repeat left top; position:absolute; left:4px; bottom:4px; text-align:center; font:normal 14px/25px Arial, Helvetica, sans-serif;}
+.fcd_box .fac_box .title_box a{color:#fff; text-decoration:none;}
+.fcd_box .fac_box .title_box a:hover{color:#f7c234;}
+.left_wrapp h1{color:#454545; font:normal 25px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:16px;}
+.left_wrapp h1 span{color:#0d8eb9;}
+.left_wrapp h2{color:#707070; font:normal 19px "Trebuchet MS", Arial, Helvetica, sans-serif; margin-bottom:10px;}
+.left_wrapp h2 span{color:#709707;}
+.vd_box{margin:0px 0px 23px; padding:0px 0px 30px; background:url(../img/green_border.png) no-repeat left bottom;}
+.vd_box .vid_box{width:386px; height:259px; float:left;}
+.vd_box .vid_txt_box{width:300px; float:right;}
+.vd_box .vid_txt_box article{color:#393939; font:normal 12px/18px Arial, Helvetica, sans-serif; text-align:justify; margin-bottom:15px;}
+.desk_dir_box{border-bottom:1px dotted #b2b2b2; padding-bottom:10px; margin-bottom:10px;}
+.desk_dir_box article{color:#393939; font:normal 12px/18px Arial, Helvetica, sans-serif; text-align:justify;}
+.photo_gallery_box{background:url(../img/blue_border.png) no-repeat left top; padding-top:18px;}
+
+
+
+
+/*-- Right Content --*/
+.right_wrapp{width:222px; float:right;}
+.ql_box{width:184px; background:url(../img/right_nav_bg.jpg) repeat left top; border:1px solid #e7e5dd; padding:37px 18px 18px; position:relative; margin-bottom:30px;}
+.ql_box .pin_icon{width:45px; height:30px; background:url(../img/pin_icon.png) no-repeat left top; position:absolute; left:102px; top:0px;}
+.ql_box h1{color:#454545; text-align:center; font:normal 25px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; background:url(../img/ql_title_bg.png) no-repeat center top; padding-top:7px;}
+.ql_box h1 span{color:#86ae18;}
+.ql_box ul{margin:5px 0px 0px; padding:5px 0px 0px; list-style:none; background:url(../img/ql_title_bg.png) no-repeat center top;}
+.ql_box ul li{list-style-type:none; border-bottom:1px dashed #dedad1; font:normal 14px Arial, Helvetica, sans-serif; padding:5px 0px;}
+.ql_box ul li a{color:#0d8eb9;}
+.ql_box ul li a:hover{color:#454545;}
+.ne_box{margin:0px; padding:0px; width:192px; height:285px; background-position:0px -491px; padding:20px 15px;}
+.ne_box h1{color:#454545; font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:10px;}
+.ne_box h1 span{color:#0d8eb9;}
+.ne_box dl{border-bottom:1px dashed #dedad1; margin:0px 0px 15px; padding:0px 0px 15px; display:block; width:100%;}
+.ne_box dl dt{width:63px; float:left;}
+.ne_box dl dd{width:113px; float:right;}
+.vm_box{text-align:right;}
+
+
+
+
+/* -- Footer --*/
+footer{height:298px; width:100%; background:url(../img/ft_img.png) repeat-x center bottom; font:normal 12px Arial, Helvetica, sans-serif;}
+footer .ft_soc_box{margin:0px; padding:94px 0px 0px 397px;}
+footer .ft_soc_box span{float:left; width:39px; height:37px; margin-right:27px;}
+footer .ft_soc_box span a{width:39px; height:37px; display:block;}
+.f_icon{width:39px; height:37px; background:url(../img/sprite.png) no-repeat -313px -44px;}
+.t_icon{width:39px; height:37px; background:url(../img/sprite.png) no-repeat -355px -44px;}
+.r_icon{width:39px; height:37px; background:url(../img/sprite.png) no-repeat -397px -44px;}
+.ft_nav_box{text-align:center; margin-top:88px; color:#fff; background:url(../img/ft_nav_bot_bg.png) no-repeat center bottom; padding-bottom:11px;}
+.ft_nav_box a{color:#fff; border-right:0px solid #fff; padding:0px 5px;}
+.ft_nav_box a:hover{color:#253203;}
+.copyright_box{text-align:center; color:#253203; margin-top:25px;}
+
+/*-- Added Mohasin 17th May 2012 Admin side Login Page --*/
+.admin_login_box{width:450px!important; margin:0px auto!important; padding:25px 15px!important; }
+.admin_Class_box{width:900px!important; margin:0px auto!important; padding:25px 25px!important; }
+

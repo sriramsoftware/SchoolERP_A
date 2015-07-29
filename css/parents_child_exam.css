@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* CSS  Parent Child Result Exam */
+.childexam_totalmarks { font-size:14px; font-weight:bold; color:#cc6d00;}
+
+/* CSS  Parent Child Result test */
+.childtest_weekmonth { color:#454545; margin-top:7px;}
+.childtest_weekmonth a { color:#454545;}
+.childtest_weekmonth a:hover { color:#0d8eb9;}
+.childtest_weekmonth .select { color:#0d8eb9;}
+.childtest_years { color:#454545; font-weight:bold; margin:4px 0px 0px 70px;}

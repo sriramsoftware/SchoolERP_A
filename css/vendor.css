@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* School Uniforms */
+.vendor_nav_wrapp{width:738px; height:173px; background:url(../img/vendor_sprite.png) no-repeat 0px 0px; margin-bottom:30px; }
+.vendor_nav_wrapp ul{margin:0px; padding:0px; list-style:none;}
+.vendor_nav_wrapp ul li{float:left; list-style-type:none; text-align:center; margin-right:1px;}
+.vendor_nav_wrapp ul li a{color:#A3238F; font:bold 12px/40px Arial, Helvetica, sans-serif;}
+.vendor_nav_wrapp ul li a:hover{color:#454545;}
+.vendor_nav_wrapp ul li#tc a{width:180px; height:40px; padding-top:133px; display:block;}
+.vendor_nav_wrapp ul li#tc a:hover{width:180px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  0px -183px;}
+.vendor_nav_wrapp ul li#tc .active{width:180px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  0px -183px; color:#454545;}
+.vendor_nav_wrapp ul li#td a{width:191px; height:40px; padding-top:133px; display:block;}
+.vendor_nav_wrapp ul li#td a:hover{width:191px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  -181px -183px;}
+.vendor_nav_wrapp ul li#td .active{width:191px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  -181px -183px; color:#454545;}
+.vendor_nav_wrapp ul li#ld a{width:183px; height:40px; padding-top:133px; display:block;}
+.vendor_nav_wrapp ul li#ld a:hover{width:183px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  -373px -183px;}
+.vendor_nav_wrapp ul li#ld .active{width:183px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  -373px -183px; color:#454545;}
+.vendor_nav_wrapp ul li#labo a{width:180px; height:40px; padding-top:133px; display:block;}
+.vendor_nav_wrapp ul li#labo a:hover{width:180px; height:40px; padding-top:133px; background:url(../img/vendor_sprite.png) no-repeat  -557px -183px;}
+.vendor_nav_wrapp ul li#labo .active{background:url(../img/vendor_sprite.png) no-repeat -557px -183px!important; color:#454545;}
+.vendor_gree_ttitle{font:bold 14px Arial, Helvetica, sans-serif; color:#A3238F; padding-bottom:15px; float:left;}
+.shop_details_wrapper{width:100%; float:left; border:1px solid #e7e5dd; background:url("../img/right_nav_bg.jpg") repeat scroll left top transparent; padding:15px; margin-bottom:25px;}
+.shop_details_wrapper .shop_block{width:215px; padding-right:15px; float:left; }
+.shop_details_wrapper .shop_block2{width:265px; padding-right:15px; float:left; }
+.shop_details_wrapper .shop_block2 .shop_add{ padding-left:15px; float:left; width:150px;}
+.no_padding_right{padding-right:0px !important;}
+.verdor_sho_img_border{ border:1px solid #bab7aa; margin-top:6px;}
+.shop_owner_wrap{width:95px; float:left;}
+.shop_table_heading{font-weight:bold; padding:7px 0px; float:left;}
+.ven_dash_ico_blocks{ width:89px; height:85px; text-align:center; padding:15px; border-right:1px solid #e7e5dd; float:left; }
+.padding_none{ padding:0px !important;}
+.ven_dash_ico_blocks span{ padding-top:8px;}
+
+
+/*---- ----*/
+.vsu_wrapp{display:none; width:301px; background:#fff; border:1px solid #d4d4c7; position:absolute; padding:10px 20px 20px; }
+.vsu_wrapp table{margin:0px auto!important;}
+.vsu_wrapp .close_icon{text-align:right; margin:6px 6px 5px 0px;}
+.vsu_wrapp dl{margin:0px auto; padding:0px; width:261px; height:126px; background:url(../img/right_nav_bg.jpg) repeat left top; border-top:1px solid #e7e5dd; border-left:1px solid #e7e5dd; }
+.vsu_wrapp dl dt{width:102px; min-height:34px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; font-weight:bold; padding:5px 0px 0px 11px; }
+.vsu_wrapp dl dd{width:135px; min-height:34px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; padding:5px 0px 0px 11px; }
+.vsd_wrapp{display:none; width:301px; height:176px; background:#fff; border:1px solid #d4d4c7; position:absolute; }
+.vsd_wrapp .close_icon{text-align:right; margin:6px 6px 5px 0px;}
+.vsd_wrapp dl{margin:0px auto; padding:0px; width:261px; height:126px; background:url(../img/right_nav_bg.jpg) repeat left top; border-top:1px solid #e7e5dd; border-left:1px solid #e7e5dd; }
+.vsd_wrapp dl .dark_bg{background:url(../img/dark_gray_texture.jpg) repeat left top; font-weight:bold; border-right:1px solid #afaca3; border-bottom:1px solid #afaca3;}
+.vsd_wrapp dl dt{width:102px; min-height:36px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; padding:5px 0px 0px 11px;  }
+.vsd_wrapp dl dd{width:135px; min-height:36px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; padding:5px 0px 0px 11px; }
+

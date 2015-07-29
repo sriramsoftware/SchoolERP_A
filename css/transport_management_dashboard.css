@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.tmd_sprite{background:url(../img/tmd_sprite.png) no-repeat left top;}
+.cont_det_box .bd_wrapp{margin:15px 0px 0px; padding:15px 0px 0px; background:url(../img/orng_border.png) no-repeat left top;}
+.cont_det_box .bd_wrapp dl{margin:0px 0px 5px; padding:0px;}
+.cont_det_box .bd_wrapp dl dt{width:145px!important; float:left;}
+.cont_det_box .bd_wrapp dl dd{width:200px!important; float:left; color:#86ae18; font-weight:bold;}
+.bus_d_box{margin:0px; padding:0px;}
+.bus_d_box table.bd{width: 100%; margin:0px auto 30px; font-size: 12px;	border-collapse: collapse; text-align: left; vertical-align: top;}
+.bus_d_box table.bd th{text-align: left; padding:10px; border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+.bus_d_box table.bd td{padding:5px 10px; border: 1px solid #d8d6d0; vertical-align: top; background:url(../img/right_nav_bg.jpg) repeat left top; color:#454545;}
+.bus_d_box table.bd td.bluecol{color:#0d8eb9; text-align:center;}
+
+.bus_driver_icon{background-position:0px 0px;}
+.bus_cond_icon{background-position:-81px 0px;}
+.bus_accou_icon{background-position:-162px 0px;}
+.bus_requi_icon{background-position:-243px 0px;}
+.bus_tt_icon{background-position:-324px 0px;}
+.bus_pr_icon{background-position:-405px 0px;}
+
+
+/*---- ----*/
+.vsu_wrapp{display:none; width:301px; height:176px; background:#fff; border:1px solid #d4d4c7; position:absolute; }
+.vsu_wrapp .close_icon{text-align:right; margin:6px 6px 5px 0px;}
+.vsu_wrapp dl{margin:0px auto; padding:0px; width:261px; height:126px; background:url(../img/right_nav_bg.jpg) repeat left top; border-top:1px solid #e7e5dd; border-left:1px solid #e7e5dd; }
+.vsu_wrapp dl dt{width:102px; min-height:34px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; font-weight:bold; padding:5px 0px 0px 11px; }
+.vsu_wrapp dl dd{width:135px; min-height:34px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; padding:5px 0px 0px 11px; }
+.vsd_wrapp{display:none; width:301px; height:176px; background:#fff; border:1px solid #d4d4c7; position:absolute; }
+.vsd_wrapp .close_icon{text-align:right; margin:6px 6px 5px 0px;}
+.vsd_wrapp dl{margin:0px auto; padding:0px; width:261px; height:126px; background:url(../img/right_nav_bg.jpg) repeat left top; border-top:1px solid #e7e5dd; border-left:1px solid #e7e5dd; }
+.vsd_wrapp dl .dark_bg{background:url(../img/dark_gray_texture.jpg) repeat left top; font-weight:bold; border-right:1px solid #afaca3; border-bottom:1px solid #afaca3;}
+.vsd_wrapp dl dt{width:102px; min-height:36px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; padding:5px 0px 0px 11px;  }
+.vsd_wrapp dl dd{width:135px; min-height:36px; height:auto!important; float:left; border-bottom:1px solid #e7e5dd; border-right:1px solid #e7e5dd; padding:5px 0px 0px 11px; }

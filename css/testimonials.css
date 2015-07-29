@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.testo_wrapp{margin:0px; padding:0px;}
+.testo_wrapp .test_box{background:url(../img/right_nav_bg.jpg) repeat left top; padding:20px; border:1px solid #e7e5dd; margin-bottom:20px;}
+.testo_wrapp .test_box .test_img_box{width:86px; height:86px; background:url(../img/tes_img_bg.png) no-repeat left top; float:left; padding:4px 19px 4px 4px;}
+.testo_wrapp .test_box .test_txt_box{width:545px; float:right;}
+.testo_wrapp .test_box .test_txt_box .test_titel_box{margin:0px 0px 20px; padding:0px;}
+.testo_wrapp .test_box .test_txt_box .test_titel_box h5{float:left; font:bold 14px Arial, Helvetica, sans-serif;}
+.testo_wrapp .test_box .test_txt_box .test_titel_box .date_box{font:italic 12px Arial, Helvetica, sans-serif; color:#838383; float:right;}
+.testo_wrapp .test_box .test_txt_box .comma_bg{background:url(../img/comma_icon.png) no-repeat left top; text-align:center; padding:0px 0px 0px 20px; color:#838383;}
+.testo_wrapp .test_box .test_txt_box article{background:url(../img/comma_icon2.png) no-repeat right bottom;}

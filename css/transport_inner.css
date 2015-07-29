@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document  transport reqments*/
+.fontetbold{font-weight:bold;}
+.pd7{padding-bottom:7px;}
+.lineht2{line-height:26px!important;}
+
+.dash_left_mid ul li#busd{background:url(../img/upload/icon_19.png) no-repeat 0px 5px; }
+.dash_left_mid ul li#bussp{background:url(../img/upload/icon_31.png) no-repeat 0px 5px; }
+.dash_left_mid ul li#busreq{background:url(../img/upload/icon_29.png) no-repeat 0px 5px; }
+
+
+.dash_left_mid ul li#acc{background:url(../img/upload/icon_20.png) no-repeat 0px 5px; }
+.dash_left_mid ul li#aarec{background:url(../img/upload/icon_49.png) no-repeat 0px 5px; }
+.dash_left_mid ul li#bus{background:url(../img/upload/icon_50.png) no-repeat 0px 5px; }
+.dash_left_mid ul li#pare{background:url(../img/upload/icon_51.png) no-repeat 0px 5px; }
+.dash_left_mid ul li#quick2{background:url(../img/upload/icon_52.png) no-repeat 0px 5px; }
+.wdth100{ /*width:100px;*/}
+.wdth110{ width:92px;}
+.wdth72{ width:62px;}
+.editimg td span{ float:left; margin-right:15px;}
+.editimg td{line-height:45px;}
+.wdth90{ width:90px;}
+.wdth80{ width:80px;}
+
+/* Transport quicksearch Drivers*/
+.wdt115{width:110px !important;}
+.add_block{ border-top:1px solid #E7E5DD; padding-top:6px; width:100%; text-align:left; }
+.driv_det_box{width:230px; float:left;}
+.bus_num_box{ width:140px; float:left;}
+.bus_num_box span{ color:#e06b17; font-weight:bold;}

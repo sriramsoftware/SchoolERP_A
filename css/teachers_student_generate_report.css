@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.leftmar_none{margin-left:0!important;}
+.bus_search_box .small_select{width:111px; font-size:11px;}
+.tsgr_title_box{text-align:center; margin:20px 0 10px;}
+.tsgr_title_box h2{font:bold 12px Arial, Helvetica, sans-serif; color:#454545;}
+.tsgr_title_box h2 span{color:#86AE18;}
+table.tsgr{width: 90%; margin:0px auto 10px; font-size: 12px; border-collapse: collapse; text-align: left; vertical-align: top;}
+table.tsgr th{text-align: left; padding:10px;	border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+table.tsgr td{padding:5px 10px; border: 1px solid #d8d6d0; vertical-align: top; background:#fff; color:#454545;}
+table.tsgr td input[type=submit]{font-size:12px!important; padding-right:10px!important;}
+.tt_title_box{padding:0px 100px;}
+table.tsgr td .input{border:1px solid #C7C6C2; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; -o-border-radius:7px; color: #656565; width:70%; height:26px; padding:0 10px;}
+.tsgr_bt_warpp{padding-right:36px!important;}
+.tsgr_bt_warpp input[type=submit]{font-size:14px!important;}
+.tsgr_bt_warpp input[type=reset]{font-size:14px!important;}
+
+
+table.tsgr_remark{width: 100%; margin:0px auto 10px; font-size: 12px; border-collapse: collapse; text-align: left; vertical-align: top;}
+table.tsgr_remark th{text-align: left; padding:10px;	border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+table.tsgr_remark td{padding:5px 10px; border: 1px solid #d8d6d0; vertical-align: top; background:#fff; color:#454545;}
+table.tsgr_remark td .textarea{border:1px solid #C7C6C2; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; -o-border-radius:7px; color: #656565; width:94%; height:36px; padding:5px 10px;}
+table.tsgr_remark td .input{border:1px solid #C7C6C2; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; -o-border-radius:7px; color: #656565; width:40%; height:26px; padding:0 10px; margin-right:10px;}
+
+
+.tsgr_remark_bt_warpp input[type=submit]{font-size:14px!important;}
+.tsgr_remark_bt_warpp input[type=reset]{font-size:14px!important;}
+

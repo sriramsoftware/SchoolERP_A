@@ -1,0 +1,75 @@
+.graybox{ background:#dadada; border-radius:6px; -moz-border-radius:6px; -o-border-radius:6px; -webkit-border-radius:6px; padding:4px 15px; color:#666666; font:bold 16px/31px  Arial, Helvetica, sans-serif; margin-bottom:15px;}
+
+.formpartion{ width:330px;}
+.newform{ padding:0;}
+.newform dl{ margin:12px 0px; padding:0; display:block; width:100%;}
+.newform dt{ color:#666666; font-weight:bold; margin-bottom:5px; padding:0;}
+.newform dd{ margin:0; padding:0;}
+
+.newform .input{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:0px 10px; width:280px;}
+
+.newform .input1{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:0px 10px; width:200px;}
+
+.newform .input2{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:0px 10px; width:120px;}
+
+.newform .select{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:5px 10px; width:300px;}
+
+.newform .select1{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:5px 10px; width:240px;}
+
+.newform .select2{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:5px 10px; width:140px;}
+
+.newform .select3{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:29px; font:normal 12px/29px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:5px 10px; width:80px;}
+
+.newform .textbox{ background:#fff; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border:1px solid #cdcdcd; height:80px; font:normal 12px/17px Arial, Helvetica, sans-serif; color:#7e7e7e; text-align:justify; padding:5px 10px; width:290px; resize:none;}
+
+.schedulebx{ padding:0;}
+.schedulebx span{ float:left; margin-right:5px;}
+.schedulebx .col1{ width:35px; color:#7e7e7e; line-height:30px;}
+
+.uploadbox{ background:#dadada; border-radius:6px; -moz-border-radius:6px; -o-border-radius:6px; -webkit-border-radius:6px; padding:15px; margin:15px 0px;}
+.uploadbox .he{ color:#666666; border-bottom:1px solid #fff; padding-bottom:6px; margin-bottom:20px; font:bold 13px Arial, Helvetica, sans-serif;}
+.uploadconatin{ width:500px; margin:0px auto; padding-bottom:10px;}
+
+.userphoto{ width:92px; height:92px; border:1px solid #cdcdcd;}
+.userphoto img{ width:100%; height:100%;}
+
+.attachmentlist{ margin:0; padding:0;}
+.attwhitbox{ background:#fff; margin:10px 0px;}
+.attwhitbox dl{ border-bottom:1px solid #dadada; padding:5px 15px; width:96%;}
+
+.notes_block span{ margin-right:6px;}
+.textblock { width:735px; padding:12px 0px;}
+.textblock .label{ width:85px; float:left}
+.textblock .right { width:645px; float:right}
+.textblock .right .textarea{ width:625px; border:1px solid #cdcdcd; padding:10px; height:72px; resize:none;  font:normal 12px/17px Arial, Helvetica, sans-serif; color:#7e7e7e; text-align:left;}
+
+.viewform{ padding:0;}
+.viewform dl{ margin:10px 0px; padding:6px 0px; display:block; width:100%;}
+.viewform dt{ color:#666666; font-weight:bold; padding:0px ; margin:0px; width:175px; float:left;}
+.viewform dd{ margin:0; padding:0; width:150px; float:right;}
+
+.calenderbox{ margin-bottom:20px;background:#fff; padding:10px; border-radius:10px; -moz-border-radius:10px; -o-border-radius:10px; -webkit-border-radius:10px; color:#666666; font-weight:bold; border:1px solid #ccc;}
+.calenderbox dl{ display:block; width:100%; margin:0; padding:0; height:34px;}
+.calenderbox dt{ float:left; text-align:center; width:51px; line-height:35px;}
+.calenderbox dd{ float:left; text-align:left; width:51px;}
+.calenderbox .calinput{ height:25px; width:46px; font:11px/25px Arial, Helvetica, sans-serif;color:#666666; text-align:center; padding:0px 4px; border:1px solid #cdcdcd; border-radius:2px; -moz-border-radius:2px; -o-border-radius:2px; -webkit-border-radius:2px;}
+.calenderbox .selectbox{ border:1px solid #CDCDCD; width:200px; padding:5px; color:#666666; border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; -webkit-border-radius:4px;}
+
+
+/*--- Added by Mohasin 25th June 2012 ---*/
+.graybox .input{width:247px; height:29px; border:1px solid #cdcdcd; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; padding:0px 10px; color:#7e7e7e; margin-right:5px;}
+.stat_select{color:#7e7e7e; border:1px solid #cdcdcd; width:84px; height:28px; padding:3px 3px 3px 0px; font-size:12px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+.hh_select{color:#7e7e7e; border:1px solid #cdcdcd; width:48px; height:28px; padding:3px 3px 3px 0px; font-size:12px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+.leave_title_wrapp{font:bold 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; border-bottom:1px solid #c3c2c2; padding-bottom:10px; margin-bottom:10px;}
+.leave_show_warpp{margin:20px 0 20px 195px;}
+.leave_show_warpp .input{width:247px; height:29px; border:1px solid #cdcdcd; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; padding:0px 10px; color:#7e7e7e; margin-right:0px;}
+.leave_show_warpp .btn{padding:3px 15px;}
+.sel_my_wrapp{margin:0px; padding:0px;}
+.sel_my_wrapp dl{margin:0px 0px 0px 85px; padding:16px 0px 10px 0px; display:block;}
+.sel_my_wrapp dl dd{float:left; margin-right:10px; }
+.sel_my_wrapp dl dd label{display:block; font:bold 12px Arial, Helvetica, sans-serif; color:#666; margin-bottom:3px;}
+.sel_my_wrapp dl dd .select{width:242px; height:31px; border:1px solid #cdcdcd; padding:5px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+.sel_my_wrapp dl dd .btn{padding:3px 15px; *padding:0px; }
+.bt_box_wrapp{text-align:right;}
+.bt_box_wrapp .btn{padding:3px 15px;  *padding:0px;}
+.bt_box_wrapp .btn_black{padding:3px 15px;}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.top_nav ul li#langie{position:relative;}
+.top_nav ul li#langie .sel_lang_box{position:absolute; display:none; border:1px solid #ddd; border-top:0px solid #fff; left:-4px; top:17px; z-index:99999!important; padding:5px 10px; background:#fff;}
+.top_nav ul li#langie .sel_lang_box a{padding:0px!important;}
+
+
+
+nav{background:#a7cb43; text-align:right; height:36px; margin-top:27px; }
+nav ul{margin:0px; padding:0px 0px 0px 166px; list-style:none;}
+nav ul li{float:left; list-style-type:none; color:#475c0b; font:normal 15px/36px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; background:url(../img/nav_divder.png) no-repeat right top; padding:0px 25px; }
+nav ul li a{color:#475c0b;}
+nav ul li a:hover{color:#fff;}
+
+.login_wrapp .select{width:226px; height:40px; background:url(../img/sprite.png) no-repeat -308px 0px; border:0px solid #fff; font:normal 13px Arial, Helvetica, sans-serif; color:#454545; padding:8px; }
+.login_wrapp input[type=text]{width:206px; height:40px; background:url(../img/sprite.png) no-repeat -308px 0px; border:0px solid #fff; font:normal 13px/37px Arial, Helvetica, sans-serif; color:#454545; padding:0px 10px; box-shadow:0px 2px #0e82a8; -moz-box-shadow:0px 2px #0e82a8; -webkit-box-shadow:0px 2px #0e82a8;}
+.login_wrapp input[type=submit]{ border:0px solid #fff; color:#7f5a00;  font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase;  cursor:pointer; background:url(../img/sprite.png) no-repeat -539px 0px!important; width:96px; height:37px;}
+.login_wrapp input[type=submit]:hover{color:#fff;}
+.top_row_back{background:url(../img/back.png) no-repeat 0px 0px !important; height:25px; cursor:pointer; width:60px; color:#454545; text-align:center; font:normal 13px/23px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase;}
+
+
+.top_row .select_year{width:76px; height:29px; background:url(../img/sprite.png) no-repeat -539px -718px; border:0px solid #fff; padding:5px; float:right; color:#656565; margin-right:10px;}
+.top_row .select_month{width:96px; height:29px; background:url(../img/sprite.png) no-repeat -433px -718px; border:0px solid #fff; padding:5px; float:right; color:#656565; margin-right:10px;}
+.top_row .select_class{width:106px; height:29px; background:url(../img/sprite.png) no-repeat -317px -718px; border:0px solid #fff; padding:5px; float:right; color:#656565; margin-right:10px;}
+.top_row .select_lan{width:186px; height:29px; background:url(../img/sprite.png) no-repeat -316px -753px; border:0px solid #fff; padding:5px; float:right; color:#656565; margin-right:10px;}
+.tech_name_wrapp ul{height:55px;}
+
+
+.tab_nav ul li{display:inline-block; *display:inline; font:bold 12px Arial, Helvetica, sans-serif; color:#454545; margin-right:2px;}
+.med_hist_box textarea{width:643px; height:112px; background:url(../img/sprite.png) no-repeat 0px -866px; border:0px solid #fff;}
+
+.popup_wrapp ul li{display:block!important; margin-bottom:30px!important;}
+.popup_wrapp ul li input[type=text]{float:left; width:266px; height:33px; border:0px solid #c7c6c2!important; line-height:33px; background:url(../img/sprite.png) no-repeat -315px -785px; color:#878787; padding:0px 5px;}
+.popup_wrapp ul li textarea{float:left; width:266px; height:78px!important;  border:0px solid #c7c6c2!important;  background:url(../img/sprite.png) no-repeat -658px -866px; color:#878787; padding:0px 5px;}

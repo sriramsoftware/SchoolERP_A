@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS admin_login css vn 21052012 Document abc  jhjkhjhjhjh*/
+body.admininner_page {
+	
+}
+header.admininner_hd{width:100%; height:251px; background:url(../img/admininner_body_bg.jpg) no-repeat center top;}
+
+
+.loginmainbox{ width:632px; border:1px solid #E7E5DD; min-height:258px; height:auto!important; margin:50px auto; background: url("../img/right_nav_bg.jpg") repeat scroll left top transparent;}
+
+.adminleft ul li{ cursor:pointer;}
+.adminleft ul li:hover{background-color:#f4f4f4!important;}
+.adminleft ul li.activehover{background-color:#f4f4f4!important;}
+
+.right_content .admin_righticon{margin:0px 0px 20px; padding:0px 0px 18px; border-bottom:1px solid #ccc;}
+.right_content .admin_righticon dl{margin:0px; padding:0px; width:100%; display:block;}
+.right_content .admin_righticon dl dd{width:14%; float:left; text-align:center; margin:0px 0px 0px 19px;}
+.right_content .admin_righticon dl dd .icon_box{width:80px; height:88px; text-align:center; margin:0px auto;}
+.right_content .admin_righticon dl dd .icon_box a{width:80px; height:88px; display:block;}
+.margrt0{ margin-right:0px!important;}
+.admin_sprite{background:url(../img/adminicon.png) no-repeat left top;}
+ 
+.adminicon_i{width:80px; height:88px; background-position:0px 0px;}
+.adminicon_brush{width:80px; height:88px; background-position:-126px  0px;}
+.adminicon_calender{width:80px; height:88px; background-position:-251px  0px;}
+.adminicon_photo{width:80px; height:88px; background-position:-367px  0px;}
+.titletop_row { margin: 0 0 12px;}
+.titleheadtxt{ color:#84ab12; font:bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif; }
+.middleyearsec{width:190px; margin:0px auto; font:bold 15px  Arial, Helvetica, sans-serif; color:#454545; min-height:40px ; height:auto!important}
+.middleyearsec span{margin:0px 10px;}
+.admin_childbox {
+    background: url("../img/right_nav_bg.jpg") repeat scroll left top transparent;
+    border-top: 1px solid #E7E5DD;
+	 border-right: 1px solid #E7E5DD;
+	  border-left: 1px solid #E7E5DD;
+    margin: 0 0 18px 0;
+    min-height: 102px;
+    padding: 10px 0px 0px 0px;
+    width: 738px;
+} 
+
+.admin_childbox .boderbox{ border-top:1px solid #e7e5dd; }
+.admin_childbox dl{ margin:0px ; padding:0px; background:url(../img/adminline.png) repeat-y left top; border-bottom:1px solid #e7e5dd; min-height:35px ; height:auto!important;}
+.admin_childbox dl dt{width:345px; float:left; padding:7px 0px 0px 30px;}
+.admin_childbox dl dd{ width:338px; float:left;  padding:7px 10px 0px 15px;}
+.childern_txt{width:270px; float:left;}
+.childern_total{width:55px; float:right; color:#eb870d; font-weight:bold;}
+.schoolgraph_childbox{  background: url("../img/right_nav_bg.jpg") repeat scroll left top transparent; border: 1px solid #E7E5DD;
+    margin: 0 0 18px 0;  min-height: 102px;  padding: 10px 30px 10px 30px;   width: 679px;} 
+.graphtop{width:676px; height:42px; margin:0px auto;}
+.graphmiddle{width:676px; height:479px;  margin:0px auto;}
+.middleyearsec2{width:190px; margin:10px 0 0 324px; font:bold 15px  Arial, Helvetica, sans-serif; color:#454545; min-height:40px ; height:auto!important}
+
+.greenschoolgraph_childbox { background: url("../img/right_nav_bg.jpg") repeat scroll left top transparent;  border: 1px solid #E7E5DD;    margin: 0 0 10px;
+    min-height: 102px; padding: 10px 30px 10px 10px;    width: 700px;}
+.greengraphtop{width:590px; height:42px; margin:0px auto;}
+.greengraphmiddle{width:691px; height:479px;  margin:0px auto;}
+.brtop{border-top: 1px solid #DAD5C4;}
+/*Shashikant*/
+.warring_msg
+{
+	background: #f4ffc7;
+	border: 1px solid #8bcb4c;
+	padding: 8px;
+	border-radius: 9px 9px 9px 9px;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	margin-bottom: 15px;
+}
+.warring_msg span
+{
+	background: url(../img/icon_correct.png) no-repeat left top;
+	color: #386000;
+	padding-left: 25px;
+}
+
+.error_msg
+{
+	background: #ffe9cc;
+	border: 1px solid #ffb22d;
+	padding: 8px;
+	border-radius: 9px 9px 9px 9px;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	margin-bottom: 15px;
+}
+.error_msg span
+{
+	background: url(../img/icon-warnning.png) no-repeat left top;
+	color: #ef0000;
+	padding-left: 25px;
+}
+
+
+.admin_form{margin:0px; padding:0px;}
+.admin_form .af_box{margin:0px 0px 15px; padding:0px;}
+.admin_form .af_box .label_box{width:15%; float:left; padding-left:1%; color:#454545; line-height:33px;}
+.admin_form .af_box input[type=text],input[type=password]{width:246px!important; box-shadow:none!important; -moz-box-shadow:none!important; -webkit-box-shadow:none!important; height:33px; border:1px solid #c7c6c2; border-radius:5px; padding:0px 10px; line-height:33px; color:#656565; float:left; margin-right:10px;}
+.admin_form .af_bot{margin:10px; padding:0px;}
+.admin_form .af_bot .label_box{ padding-left:0%; color:#454545; line-height:33px;}
+
+
+/*--- Admin Left Accourding Menu Added by Mohasin 29 May 2012 ---*/
+repeat center bottom;
+	height: 14px;
+}
+.accordLinks-top
+{
+	background: url(../images/accordLinks-top.png) no-repeat center top;
+	height: 14px;
+
+}
+.accordLinks
+{
+	padding: 0px 10px;
+	background: url(../images/accordLinks-mid.png) repeat-y center top;
+	cursor:pointer;
+}
+
+
+.accordion
+{
+	border: Solid 0px #0075af;
+}
+
+.accordionHeader
+{
+	border-bottom: 1px solid #DAD5C4;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 7px 0px 7px 5px; 
+    cursor:pointer;
+    width:170px; 
+    font-weight:bold;
+    font-size:12px;
+}
+.accordionHeader img{float:left; margin-right:5px;}
+
+ul#menu a {
+    display: block;
+    text-decoration: none;
+}
+.img1
+{
+	vertical-align: middle;
+	margin-right: 2px;
+}
+.accordionContent ul
+{
+	text-align: left;
+	padding-bottom: 4px;
+	color: Gray;
+	float: left;
+	font-size: 12px;
+}
+.accordionContent1
+{
+	width:175px;
+	border: 0 none;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background:#fff;
+}
+
+
+.accordionContent1 ul{ margin:0; padding:0; list-style:none; width:175px;}
+.accordionContent1 ul li {margin:0px;}
+.accordionContent1 a
+{
+	background:#fef4e3;
+    border-bottom: 1px solid #fff;
+    color: #767070;
+    font-weight: normal;
+    padding:3px 0px 3px 10px;
+    display:block;
+}
+
+.accordionContent1 a:hover
+{
+	color:#4e4e4e;
+	text-decoration: none;
+	background:#ead6af;
+	line-height:29px;
+	
+}
+
+.accordionHeaderSelected
+{
+   		background:#D2AB67;
+   		color:#fff;
+   		width:170px; margin:0px auto;
+   		padding:0px 0px 0px 5px;
+   		font-weight:bold;
+   		font-size:12px;
+   		line-height:29px;
+}
+
+ul#menu a {
+    display: block;
+    text-decoration: none;
+	
+}
+.accordionHeader:hover
+{
+	background:#c29e5e;
+   		color:#fff;
+}
+.admin_ft{height:60px; line-height:60px; background:#597B00; color:#fff!important;}
+.admin_ft .copyright_box{color:#fff;}
+.login_welcome_txt{color:#475C0B; font: 16px/36px "Trebuchet MS",Arial,Helvetica,sans-serif; text-align:left; margin-left:150px;}
+
+
+/*newadded/24/09/2012*/
+.web_spraite { background:url(../img/website_ico.png) no-repeat 0 0; }
+.sms_ico { background-position:-5px 0;}
+.application_ico { background-position:-213px 0; }
+.staff_ico { background-position:-304px 0; }
+.student_ico { background-position:-403px 0; }
+.parent_ico { background-position:-114px -107px; }
+.fees_pay_ico { background-position:-6px -107px; }
+.sub_user_ico { background-position:-219px -107px; }
+.sub_manage_ico	{ background-position:-310px -107px; }
+.teacher_ico	{ background-position:-403px -107px; }
+
+.erp_spraite { background:url(../img/erp_ico.png) no-repeat 0 0;}
+.manage_event { background-position: -6px 0px;}
+.manage_gallery { background-position: -114px 0px;}
+.manage_news { background-position: -304px 0px;}
+.abouts_ico { background-position: -6px -107px;}
+.manage_video { background-position: -396px 0px;}
+.rules_regul { background-position: -310px -107px;}
+.school_ico { background-position: -114px -107px;}
+.admition_ico { background-position: -403px -107px;}
+.facilities { background-position: -213px 0px;}
+.achivements { background-position: -214px -107px;}
+
+
+.top_nav {float: right;padding-top: 17px; width:335px; text-align: right;}
+.top_nav ul {list-style: none outside none; margin: 0; padding: 0;}
+.top_nav ul li {border-right: 1px solid #2C2C2C; color: #2C2C2C; display: inline;}
+.top_nav ul li a {color: #2C2C2C; padding: 0 5px;}
+.top_nav ul li a:hover { color: #063BBC;}
+.top_nav ul li:last-child { border-right: 0 solid #FFFFFF;}
+.top_nav ul li:last-child .sel_lang_box {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background:  #FFFFFF;
+    border-color: #FFFFFF #DDDDDD #DDDDDD;
+    border-image: none;
+    border-right: 1px solid #DDDDDD;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    display: none;
+    left: -4px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 17px;
+    z-index: 99999 !important;
+}
+.top_nav ul li:last-child .sel_lang_box a {padding: 0 !important;}
+.logo {margin-top: 10px;}
+.bt_logout { background:none!important; border: 0 solid #FFFFFF; cursor: pointer;}
+.bt_logout:hover {color: #063BBC;}
+.inner_container fieldset {background: url("../img/right_nav_bg.jpg") repeat scroll left top transparent;border: 1px solid #E7E5DD;clear: both;margin-bottom: 30px; /* padding: 19px 19px 0; */
+                           border-radius:10px; -o-border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; border:1px solid #ccc;}
+.inner_container fieldset .col1 {float: left;   width: 50%;}
+

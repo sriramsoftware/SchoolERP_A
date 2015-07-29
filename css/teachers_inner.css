@@ -1,0 +1,23 @@
+@charset "utf-8";
+/***********teacher_student_attendance_record***********/
+.achiv_toptitle em{ font-style:normal; font-size:12px; color:#454545; font-weight:bold; float:left;}
+.margintop5{margin:-2px 5px 0px 0px ; float:left;}
+.broderbtm{ border-bottom:1px solid #d8d6d0; padding-bottom:10px;}
+.abs {color: #DD2F00 !important;}
+.present {color:#86AE18 !important;}
+.trady {color:#E38C0E !important;}
+.smallli ul li{ width:11%!important;}
+.dash_left_mid ul li#funt{background:url(../img/fun.png) no-repeat  2px 5px; }
+
+
+
+/************cssteacher_edit_class***********/
+
+.editclass fieldset ul li select.sectbox{width:285px!important; margin-right:150px;}
+.editclass fieldset ul li select.sortby2{width:125px!important; margin-right:150px;}
+.editclass fieldset ul li select.sortby3{width:149px!important;}
+.graph_calender{width:600px ; margin:0px auto;}
+.org{color:#cc6d00!important;}
+.margintop15{ margin-top:15px!important;}
+.marginleft10{ margin-left:10px!important; padding:2px 8px!important;}
+.ie7 .marginleft10{ margin-left:10px!important; padding:0px!important;}

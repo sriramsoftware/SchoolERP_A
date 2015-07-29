@@ -1,0 +1,114 @@
+﻿.accordionContent1 
+{
+    color: Gray;
+    padding-top:10px;
+   
+    font-weight: bold;
+    padding-bottom: 14px;
+    font-size: 12px;
+    min-height:20px;
+    height:auto;
+}
+.accordionContent1 a
+{
+    color: #535353;
+    padding-top:10px;
+    font-weight: normal;
+    padding-bottom: 14px;
+    font-size: 12px;
+}
+
+.accordionContent ul li
+{
+    color: Gray;
+    padding-bottom:5px;
+    font-size: 12px;
+}
+
+.accordionContent ul li a
+{
+    color: #535353;
+  
+}
+.accordionContent ul li a:hover
+{
+    color: #000000;
+  
+}
+
+.accordionHeaderSelected
+{
+    /*background:url(../images/active_sidebar_link.png) repeat-x top left;*/
+    background: url(../img/dark_gray_texture.jpg) repeat top left;
+    margin: 2px 0xp 2px 0px;
+    padding: 5px 0px 5px 10px;
+    cursor: pointer;
+    -moz-user-select: none;
+   font: 14px Arial,Helvetica,sans-serif;
+    -khtml-user-select: none;
+    display: block !important;
+    color: White;
+    border-bottom: 1px dashed #DEDAD1!important;
+    text-decoration: none !important;
+    border:0px solid #fff;
+}
+.accordionHeaderSelected a{color:#fff;}
+.accordionHeader:hover
+{
+    /*background: url(../images/deactive_sidebar_link.png) repeat-x top left;*/
+    background: url(../img/dark_gray_texture.jpg) repeat top left;
+    margin: 2px 0xp 2px 0px;
+ padding: 5px 0px 5px 10px;
+    cursor: pointer;
+    -moz-user-select: none;
+   font: 14px Arial,Helvetica,sans-serif;
+    -khtml-user-select: none;
+    display: block !important;
+    color: White;
+    border-bottom: 1px dashed #DEDAD1!important;
+    text-decoration: none !important;
+    border:0px solid #fff;
+}
+.accordionContent
+{
+    margin: 0px 0xp 0px 0px;
+    font-size: 12px;
+}
+.accordionHeader
+{
+    margin: 2px 0xp 2px 0px;
+    padding: 5px 0px 5px 10px;
+    cursor: pointer;
+    -moz-user-select: none;
+   font: 14px Arial,Helvetica,sans-serif;
+    -khtml-user-select: none;
+    display: block !important;
+    color: White;
+    border-bottom: 1px dashed #DEDAD1!important;
+    text-decoration: none !important;
+    border:0px solid #fff;
+}
+.accordionContent ul
+{
+    background:none; border-bottom: 0px dashed #DEDAD1; margin:0px; padding:0px 0px 10px 0px;
+}
+ .accordionContent ul li{border-bottom: 1px dotted #DEDAD1;}
+.accordionContent ul li a{
+    background: url("../img/org_arrow.png") no-repeat scroll 25px 9px transparent;
+    display: block;
+    padding: 3px 0 3px 40px;
+    text-transform: capitalize; font-size:12px; border:0px solid #fff!important;
+    font-weight:normal;
+    color:#000;
+}
+
+.accordionContent ul li a:hover{
+    color:#ccc;
+}
+
+.accordionContent ul li .active{
+    color:#ccc;
+}
+
+
+

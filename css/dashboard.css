@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Dashboard Page */
+
+.dashbd_nav { height:36px; background:url(../img/nav_bg.png) repeat-y 0px 0px; margin-bottom:10px;  padding-left:145px; }
+.dashbd_navleft { width:834px; float:left; }
+.dashbd_navleft ul { margin:0px; padding:0px; list-style:none;}
+.dashbd_navleft ul li { margin:0px; padding:0px; font:16px/36px "Trebuchet MS", arial, Helvetica, sans-serif; /*background:url(../img/nav_divder.png) no-repeat right top;*/
+                        border-right:1px solid #f5f5f5;  color:#F3E0BD; float:left;}
+.dashbd_navleft ul li a {color:#F3E0BD; padding:7px 24px; }
+.dashbd_navleft ul li a:hover {color:#fff; background:#3A1F36;}
+
+.dashbd_navright { width:354px; float:right; background:url (../img/blue_dotted.png)  0 0; margin-top:70px; position:relative; }
+.dashbd_navright ul { margin:0px; padding:0px; list-style:none;}
+.dashbd_navright ul li {  margin:0px; padding:0px; margin-left:5px; font:12px/36px "Trebuchet MS", arial, Helvetica, sans-serif;  text-transform:uppercase; color:#475C0B; float:left;}
+.dashbd_navright ul li a { font-size:12px; color:#fff; padding:3px 8px; text-transform:uppercase; background: url(../img/yellowbtn_bg.png) 0 0 repeat-x; border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px; -o-border-radius:5px 5px 5px 5px; -webkit-border-radius:5px 5px 5px 5px;}
+.dashbd_navright ul li a:hover { background:url(../img/yellowbtn_bg_ho.png) 0 0 repeat-x;}
+.dashbd_navright .new_mesg_icon { color:#fff; background:url(../img/admin_notification.png) 0 0 repeat-x; width:32px; height:26px; position:absolute; top:-14px; left:98px; text-align:center; }
+.dashbd_navright .recv_appc_icon { color:#fff; background:url(../img/admin_notification.png) 0 0 repeat-x; width:32px; height:26px; position:absolute; top:-14px; left:216px; text-align:center; }
+
+.dashbd_leftside { width:465px; float:left;}
+.dashbd_leftbuttns { width:200px; float:left;}
+.dashbd_quickstat_btn { width:192px; height:23px; background:url(../img/yellowbtn_bg.png) repeat-x left top; font:Bold 13px "Trebuchet MS", arial, Helvetica, sans-serif; color:#454545; text-transform:uppercase; padding:7px 0px 0px 8px; cursor:pointer; margin-bottom:10px;
+-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.dashbd_quickstat_btn:hover { background:url(../img/yellowbtn_bg_ho.png) repeat-x left top; color:#454545;}
+.dashbd_quickstat_btn a { color:#454545;}
+
+.dashbd_rt_erpside { width:222px; float:right; background: url("../img/right_nav_bg.jpg") repeat left top ; border:1px solid #E7E5DD; padding:10px 10px;}
+.dashbd_erpsolution_white { width:103px; height:88px; float:left; background-color:#FFF; border:1px solid #E7E5DD;}
+.dashbd_erpsolution_icon { margin:5px 0px 0px 17px;}
+.dashbd_erpsolution_hd {font:Bold 15px "Trebuchet MS", arial, Helvetica, sans-serif; color:#333; text-align:center; }
+.dashbd_erpsolution_hd a {color:#333;}
+.dashbd_erpsolution_hd a:hover {color:#0D8EB9;}
+.dashbd_website_white { width:103px; height:88px; float:left; background-color:#FFF; border:1px solid #E7E5DD; margin-left:12px;}
+
+.dashbd_recentalert_bx { width:465px; background: url("../img/right_nav_bg.jpg") repeat left top ; border:1px solid #E7E5DD; padding:0px; margin-top:15px;}
+.dashbd_leftlinks {width:155px; float:left;}
+.dashbd_leftlinks ul { margin:0px; padding:0px; list-style:none; }
+.dashbd_leftlinks ul li { margin:0px; padding:0px; background:url(../img/blue_dotted.png) repeat left top; font:Bold 15px "Trebuchet MS", arial, Helvetica, sans-serif; color:#454545; border-bottom:1px solid #E7E5DD;}
+.dashbd_leftlinks ul li a {color:#fff; padding:12px 5px 12px 10px; display:block; }
+.dashbd_leftlinks ul li a:hover {color:#353535; padding:12px 5px 12px 10px; display:block; background:#b4d94d url(../img/right_nav_bg.jpg) repeat left bottom;}
+.dashbd_leftlinks ul li .selected {color:#353535; padding:12px 5px 12px 10px; display:block; background:#b4d94d url(../img/right_nav_bg.jpg) repeat left bottom;}
+.dashbd_rtcontain {width:278px; float:right; padding:10px 15px 5px 0px;}
+.dashbd_recentalert_hd {font:18px "Trebuchet MS", arial, Helvetica, sans-serif; color:#454545; margin-bottom:5px; color:#0D8EB9;}
+.dashbd_recentalert_descrip { color:#454545; line-height:18px;}
+.dashbd_recentalert_dividrline { border-bottom:1px solid #CCC; padding-bottom:8px; margin:5px 0px;}
+
+.dashbd_rightside { width:465px; float:right;}
+
+.dashbd_princpapp_links { margin:0px; }
+.dashbd_princpapp_links span {float:left;}
+.dashbd_princpapp_done { width:47px; background:url(../img/green_circle.png) no-repeat top left; padding:0px 0px 0px 17px;}
+.dashbd_princpapp_pending { width:60px; background:url(../img/yellow_circle.png) no-repeat top left; padding:0px 0px 0px 17px;}
+.dashbd_princpapp_cancel { width:55px; background:url(../img/red_circle.png) no-repeat top left; padding:0px 0px 0px 17px;}
+.dashbd_princpapp_appointmnt {width:135px; font-size:12px; font-weight:bold; color:#353535;}
+.dashbd_princpapp_appointmnt a {color:#353535; text-decoration:underline;}
+.dashbd_princpapp_appointmnt a:hover {color:#353535; text-decoration:none;}
+.dashbd_princpapp_detail {width:70px; font-size:12px; font-weight:bold; color:#353535;}
+.dashbd_princpapp_detail a {color:#353535; text-decoration:underline;}
+.dashbd_princpapp_detail a:hover {color:#353535; text-decoration:none;}
+
+.dashbd_princpapp_table { margin-top:12px; }
+table.princple_table {width: 100%; margin:0px auto 0px; font-size: 11px; border-collapse: collapse; text-align: left; vertical-align: top;}
+table.princple_table th{text-align: left; padding:3px;	border: 1px solid #afaca3; background:url(../img/dark_gray_texture.jpg) repeat left top; vertical-align: top;}
+table.princple_table td{padding:3px 3px; border: 1px solid #d8d6d0; vertical-align: top; background:#fff; color:#454545;}
+
+
+
+header.sub_admininner_hd { height:196px;}
+.login_welcome_admin {color:#475C0B; font: 16px/36px "Trebuchet MS",Arial,Helvetica,sans-serif; margin:7px 0 0 30px; float:left;}
+.ftbg_non { background:#000!important; height:20px; border-top:#000 solid 15px; border-bottom:#000 solid 15px; color:#525150 !important;}
+.copyright_box2 { margin:3px 0 0 0; }

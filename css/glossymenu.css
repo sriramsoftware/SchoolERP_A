@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.glossymenu{
+margin: 5px 0;
+padding: 0;
+}
+
+.glossymenu a.menuitem{
+background:url(../img/dark_gray_texture.jpg) repeat left top;
+font: bold 12px/32px Arial, Helvetica, sans-serif;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 0px 0;
+padding-left: 10px;
+text-decoration: none;
+border:1px solid #bab7aa; margin-bottom:2px;
+color:#454545!important;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background:url(../img/dark_gray_texture.jpg) repeat left top;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background:url(../img/right_nav_bg.jpg) repeat left top;
+border:1px solid #e7e5dd;
+padding:15px;
+margin:-2px 0px 3px 0px;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 0px solid blue;
+list-style-type:none;
+ clear:both; margin-bottom:18px;
+}
+
+.glossymenu div.submenu ul li label{width:231px; float:left; margin-right:22px; line-height:33px; text-align:right;}
+.glossymenu div.submenu ul li input[type=text]{width:244px; height:31px; border:1px solid #c7c6c2; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; float:left; padding:0px 10px;}
+

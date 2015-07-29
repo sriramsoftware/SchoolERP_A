@@ -1,0 +1,34 @@
+﻿.popup_wrapp{width:632px; background:#fff; border:1px solid #eae6cd; position:absolute; top:100px; left:10px; z-index:99999; padding:10px;}
+.pop_main_box{width:572px; border:1px solid #acacac; padding:30px; position:relative;}
+.close_icon_popup{width:16px; height:16px; position:absolute; right:9px; top:9px;}
+.popup_title{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#454545; padding:0px 0px 10px; margin-bottom:10px; text-transform:uppercase; border-bottom:1px solid #acacac;}
+.popup_wrapp ul{margin:0px; padding:0px; list-style:none;}
+.popup_wrapp ul li{clear:both!important; margin-bottom:15px;}
+.popup_wrapp ul li label{width:155px; text-align:right; float:left; margin-right:23px;}
+.popup_wrapp ul li input[type=text]{float:left; width:266px; height:33px; border:1px solid #c7c6c2; border-radius:10px; color:#878787; padding:0px 5px;}
+.popup_wrapp ul li textarea{float:left; width:266px; height:74px; border:1px solid #c7c6c2; border-radius:10px; color:#878787; padding:0px 5px;}
+
+.popup_wrapp .save_bt_box{margin:0px 117px 0px 0px; padding:0px; text-align:right;}
+.popup_wrapp .save_bt_box input[type=submit]{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:3px 10px; box-shadow:0px 1px #c39900; -moz-box-shadow:0px 1px #c39900; -webkit-box-shadow:0px 1px #c39900; cursor:pointer; text-shadow:0px 1px #e5b80d; -moz-text-shadow:0px 1px #e5b80d; -webkit-text-shadow:0px 1px #e5b80d;}
+.popup_wrapp .save_bt_box input[type=submit]:hover{color:#fff;}
+.popup_wrapp .save_bt_box input[type=reset]{border:0px solid #fff; color:#fff;  font:normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:3px 10px; box-shadow:0px 1px #525252; -moz-box-shadow:0px 1px #525252; -webkit-box-shadow:0px 1px #525252; cursor:pointer; text-shadow:0px 1px #727272; -moz-text-shadow:0px 1px #727272; -webkit-text-shadow:0px 1px #727272; background: rgb(197,197,197); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M1YzVjNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5Njk2OTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(197,197,197) 0%, rgb(150,150,150) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(197,197,197)), color-stop(100%,rgb(150,150,150))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5c5c5', endColorstr='#969696',GradientType=0 ); /* IE6-8 */
+}
+.popup_wrapp .save_bt_box input[type=reset]:hover{color:#000;}		

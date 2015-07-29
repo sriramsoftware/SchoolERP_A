@@ -1,0 +1,58 @@
+/* Popup Download ebrowser CSS */
+.bg
+        {
+            position: absolute;
+            z-index: 100;
+            top: 0px;
+            left: 0px;
+            background-color: #000;
+            filter: alpha(opacity=60);
+            -moz-opacity: 0.6;
+            opacity: 0.6;
+        }
+        .modalBackground
+        {
+            position: absolute;
+            z-index: 100;
+            top: 0px;
+            left: 0px;
+            background-color: #000;
+            filter: alpha(opacity=60);
+            -moz-opacity: 0.6;
+            opacity: 0.6;
+        }
+        .modalPopup
+        {
+            background-color: #ffffff;
+            padding: 10px 10px 10px 10px;
+            border:5px solid #1294CC;
+            width:350px;
+            height: 430px;
+           
+            text-align: justify;
+            color: #454545;
+            font: 12px/18px Arial,Helvetica,sans-serif;
+            border-radius:6px; -moz-border-radius:6px; -o-border-radius:6px; -webkit-border-radius:6px;
+        }
+        . news_title1
+        {
+            font: 18px "Trebuchet MS" ,Arial,Helvetica,sans-serif;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+        
+.admin_login_box{ width:430px; margin-top:20px;}
+.admin_login_box dl { display:block; padding:0; margin:0; height:40px;}
+.admin_login_box dl dt{ float:left; width:210px; font:bold 14px/28px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#454545;}
+.admin_login_box dl dd{ float:left; margin-left:10px;}
+.admin_login_box .input{ background:#FFFFFF; border:1px solid #cfcfcf; color:#898989;  font:14px/32px Arial,Helvetica,sans-serif; height:30px;  width:295px; padding:0px 10px;}
+.icon_closepopup{ width:16px; height:16px;}
+.popuphe{ font:bold 17px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#1294CC;}
+.hebox{ border-bottom:1px dashed #cfcfcf; padding-bottom:8px;}
+.solution_block p{ font-size: 13px; line-height: 18px; text-align: justify; padding-bottom: 8px;}
+
+.admin_login_box1{ width:430px; margin-top:20px;}
+.admin_login_box1 dl { display:block; padding:0; margin:0; height:40px;}
+.admin_login_box1 dl dt{ float:left; width:185px; font:bold 14px/28px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#454545;}
+.admin_login_box1 dl dd{ float:left; margin-left:10px;width:126px!important;}
+.admin_login_box1 .input{ background:#FFFFFF; border:1px solid #cfcfcf; color:#898989;  font:14px/32px Arial,Helvetica,sans-serif; height:30px;  width:95px; padding:0px 10px;}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*---- Blog Page ----*/
+.left_wrapp h1.bot_imgborder{background:url(../img/blue_border.png) no-repeat left bottom; padding-bottom:10px;}
+.blog_wrapp{margin:0px; padding:0px;}
+.blog_wrapp dl{border-bottom:1px solid #d6d6d6; padding-bottom:15px; margin-bottom:15px;}
+.blog_wrapp dl dt{width:100px; float:left; margin-right:15px;}
+.blog_wrapp dl dt .img_box{width:70px; height:70px; background:#fff; padding:3px; border:1px solid #bfbfbf; margin:0px auto;}
+.blog_wrapp dl dt .blog_post_name{text-align:center; font:bold 14px Arial, Helvetica, sans-serif; color:#585858; margin:5px 0px;}
+.blog_wrapp dl dt .blog_post_date{font:italic 11px Arial, Helvetica, sans-serif; text-align:center; color:#6f6f6f;}
+.blog_wrapp dl dd{background:url(../img/right_nav_bg.jpg) repeat left top; border:1px solid #e7e5dd; padding:15px; width:567px; float:right; border-radius:10px; -o-border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+.blog_wrapp dl dd .blog_title{font:normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif; margin-bottom:10px;}
+.blog_wrapp dl dd article{color:#6f6f6f; font-size:12px; line-height:18px; text-align:justify; margin-bottom:15px;}
+.blog_wrapp dl dd .comm_txt_box{background-position:-983px -800px; padding-left:25px; font-weight:bold; color:#6f6f6f;}
+
+
+
+/*----- Blog Detail Page ----*/
+.blog_comm_box{width:460px; float:right;}
+.blog_comm_box dl{margin:0px 0px 10px; padding-bottom:10px; border-bottom:1px solid #d6d6d6; color:#585858; }
+.blog_comm_box dl dt{width:50px!important; float:left; margin-right:10px!important;}
+.blog_comm_box dl dt .img_box{width:40px!important; height:40px!important; background:#fff; padding:3px; border:1px solid #bfbfbf;}
+.blog_comm_box dl dd{background:none!important; width:400px; float:right; padding:0px; border:0px solid #fff;}
+.blog_comm_box dl dd .blog_comm_name{font-weight:bold; margin-bottom:3px;}
+.blog_comm_box dl dd .blog_comm_date{font:italic 11px Arial, Helvetica, sans-serif; margin-bottom:3px;}
+.blog_comm_box fieldset ul{margin:0px; padding:0px; list-style:none;}
+.blog_comm_box fieldset ul li{list-style-type:none; background:none; font:normal 12px Arial, Helvetica, sans-serif; clear:both; min-height:57px; height:auto!important}
+.blog_comm_box fieldset ul li label{width:25%; float:left; text-align:right; padding-left:3%; color:#454545; line-height:33px; margin-right:15px;}
+.blog_comm_box fieldset ul li input[type=text]{width:206px; height:30px; border:1px solid #c7c6c2; border-radius:5px; padding:0px 10px; line-height:33px; color:#656565; float:left; margin-right:10px;}
+.blog_comm_box fieldset ul li textarea{width:206px; height:89px; border:1px solid #c7c6c2; border-radius:5px; padding:0px 10px; line-height:33px; color:#656565; float:left; margin-right:10px; resize:none; margin-bottom:23px;}

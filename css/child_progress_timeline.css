@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.tl_title{font:normal 14px Arial, Helvetica, sans-serif; color:#454545; float:left;}
+.progress_timeline_nav{width:960px; height:173px; background:url(../img/tl_sprite.png) no-repeat 0px 0px; margin-bottom:30px;}
+.progress_timeline_nav ul{margin:0px; padding:0px; list-style:none;}
+.progress_timeline_nav ul li{float:left; list-style-type:none; text-align:center; margin-right:1px;}
+.progress_timeline_nav ul li a{color:#0d8eb9; font:bold 12px/40px Arial, Helvetica, sans-serif;}
+.progress_timeline_nav ul li a:hover{color:#454545;}
+.progress_timeline_nav ul li#acc_rec a{width:190px; height:40px; padding-top:133px; display:block;}
+.progress_timeline_nav ul li#acc_rec a:hover{width:190px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  0px -176px;}
+.progress_timeline_nav ul li#acc_rec .active{width:190px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  0px -176px; color:#454545;}
+.progress_timeline_nav ul li#ext_cur_act a{width:191px; height:40px; padding-top:133px; display:block;}
+.progress_timeline_nav ul li#ext_cur_act a:hover{width:191px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -191px -176px;}
+.progress_timeline_nav ul li#ext_cur_act .active{width:191px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -191px -176px; color:#454545;}
+.progress_timeline_nav ul li#achievements a{width:191px; height:40px; padding-top:133px; display:block;}
+.progress_timeline_nav ul li#achievements a:hover{width:191px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -383px -176px;}
+.progress_timeline_nav ul li#achievements .active{width:191px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -383px -176px; color:#454545;}
+.progress_timeline_nav ul li#pf a{width:192px; height:40px; padding-top:133px; display:block;}
+.progress_timeline_nav ul li#pf a:hover{width:192px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -575px -176px;}
+.progress_timeline_nav ul li#pf .active{width:192px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -575px -176px; color:#454545;}
+.progress_timeline_nav ul li#beha a{width:191px; height:40px; padding-top:133px; display:block;}
+.progress_timeline_nav ul li#beha a:hover{width:191px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -768px -176px;}
+.progress_timeline_nav ul li#beha .active{width:191px; height:40px; padding-top:133px; background:url(../img/tl_sprite.png) no-repeat  -768px -176px; color:#454545;}
+
+.stude_name_box{background:url(../img/dark_gray_texture.jpg) repeat left top; border:1px solid #afaca3; padding:0px 15px; height:50px;}
+.stude_name_box h4{font:normal 18px/50px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#454545; float:left; text-transform:uppercase;}
+.stude_name_box h4 span{color:#0d8eb9;}
+.stude_name_box input[type=submit]{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:4px 12px; box-shadow:0px 1px #c39900; -moz-box-shadow:0px 1px #c39900; -webkit-box-shadow:0px 1px #c39900; cursor:pointer; text-shadow:0px 1px #e5b80d; -moz-text-shadow:0px 1px #e5b80d; -webkit-text-shadow:0px 1px #e5b80d; float:right; margin:8px 0px 0px 10px;}
+.stude_name_box input[type=submit]:hover{color:#fff;}
+.arrow_box{margin:10px 0px 10px; padding:0px;}
+.arrow_box .left_arrow{width:28px; height:28px; float:right;}
+.arrow_box .left_arrow a{width:28px; height:28px; display:block; background:url(../img/tl_sprite.png) no-repeat -973px -32px;}
+.arrow_box .left_arrow a:hover{background-position:-973px 0px;}
+.arrow_box .left_arrow .active{background:url(../img/tl_sprite.png) no-repeat -973px 0px;}
+
+.arrow_box .right_arrow{width:28px; height:28px; float:right; margin-left:5px;}
+.arrow_box .right_arrow a{width:28px; height:28px; display:block; background:url(../img/tl_sprite.png) no-repeat -972px -95px;}
+.arrow_box .right_arrow a:hover{background-position:-972px -63px;}
+.arrow_box .right_arrow .active{background:url(../img/tl_sprite.png) no-repeat -972px -63px;}
+
+.graph_box{width:960px;}

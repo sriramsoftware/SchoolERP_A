@@ -1,0 +1,76 @@
+﻿
+/*---- parents_child_dashboard Page -----*/
+.guard_box{margin:0px 0px 20px; padding:0px 0px 20px; background:url(../img/blue_border.png) no-repeat left bottom;}
+.guard_box dl{margin:0px; padding:0px; width:50%; float:left;}
+.guard_box dl dt{color:#df890e; font:bold 13px Arial, Helvetica, sans-serif; margin-bottom:5px;}
+.marg0{margin:0px!important;}
+
+.brnone{border:0px!important;}
+.brnone tbody tr th{border:0px!important;}
+.brnone tbody tr td{border:0px!important;}
+.selectedlinks1 {background:#ccc!important;}
+
+
+/* CONTACT US */
+.contactus_contain { margin:0px 0px 0px 0px; background:url(../img/right_nav_bg.jpg) repeat left top; padding:19px; border:1px solid #e7e5dd;   }
+.err_msg {color:#f00; font-size:11px; margin-left:5px;}
+.cont_left {width:65%; float:left; }
+.cont_left dl {margin:0px 0px 10px 0px; padding:0px; }
+.cont_left dl dd {width:122px; float:left; font-size:14px;  margin:0px 0px 0px 0px; padding-right:20px; color:#454545;}
+.cont_left dl dt {width:245px; float:left;}
+.cont_left dl dt .input{width:230px; height:30px; border:1px solid #d1d1d1; margin-bottom:5px; padding:0px 5px; line-height:28px; color:#4f4f4f; box-shadow:1px 1px 5px #f0f0f0 inset; background-color:#FFF;}
+
+.cont_left dl dt .textarea {width:230px; height:78px; border:1px solid #d1d1d1; padding:5px; color:#4F4F4F;  box-shadow:1px 1px 5px #f0f0f0 inset; background-color:#FFF;}
+.textarea {width:653px;height:82px;border:1px solid #d1d1d1; padding:5px; color:#4F4F4F;  box-shadow:1px 1px 5px #f0f0f0 inset; background-color:#FFF;}
+.cont_left dl dt .select {width:243px; border:1px solid #d1d1d1; margin-bottom:5px; padding:5px; color:#4F4F4F;}
+.cont_right h2{font:normal 17px 'DroidSansRegular', sans-serif;; margin-bottom:10px; color:#414141;}
+.cont_map { float:right;}
+
+
+
+.cont_right{width:35%; float:right; color:#454545; line-height:19px; margin-top:10px;}
+.cont_suhead { font-size:14px; font-weight:bold; color:#454545; }
+.cont_descrip { margin-top:10px; line-height:20px; color:#454545;}
+.cont_add_wrapp{width:40%; float:left; font: normal 14px "Myriad Pro","Trebuchet MS",arial,Helvetica,sans-serif;}
+.cont_add_wrapp h3{margin:0px 0px 5px; font-size:15px;font-weight:normal;}
+.cont_add_wrapp h5{font-weight:normal; margin-bottom:5px; font-size:13px;}               
+
+
+.cont_redbtn { border:0px solid #bebebe; font-size:13px; color:#FFF; text-align:center; padding:5px 15px 5px 15px;
+background: rgb(227,91,72); /* Old browsers */}
+
+.contactus_form{margin-bottom:0px; float:right; width:60%;}
+.contactus_form dl{margin:0px; padding:0px; margin-bottom:10px;}
+.contactus_form dl dt{width:122px; float:left; text-align:right; line-height:33px; margin-right:10px; font-size:14px;  margin:0px 0px 0px 0px; padding-right:20px; color:#454545;}
+.contactus_form dl dt label{text-align:left!important;}
+.contactus_form dl dd{width:245px; float:left;}
+.contactus_form dl dd .input{width:196px!important; box-shadow:none!important; -moz-box-shadow:none!important; -webkit-box-shadow:none!important; height:33px; border:1px solid #c7c6c2; border-radius:5px; padding:0px 10px; line-height:33px; color:#656565; margin-right:10px;}
+.contactus_form dl dd .textarea{width:196px; height:89px; border:1px solid #c7c6c2; border-radius:5px; padding:0px 10px; line-height:33px; color:#656565; margin-right:10px; resize:none; }
+.contactus_form dl dd .bt_save{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:6px 15px; box-shadow:0px 1px #c39900; -moz-box-shadow:0px 1px #c39900; -webkit-box-shadow:0px 1px #c39900; cursor:pointer; text-shadow:0px 1px #e5b80d; -moz-text-shadow:0px 1px #e5b80d; -webkit-text-shadow:0px 1px #e5b80d;}
+.contactus_form dl dd .bt_save:hover{color:#fff;}
+
+.contactus_form dl dd .bt_clear{border:0px solid #fff; color:#fff;  font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:6px 15px; box-shadow:0px 1px #525252; -moz-box-shadow:0px 1px #525252; -webkit-box-shadow:0px 1px #525252; cursor:pointer; text-shadow:0px 1px #727272; -moz-text-shadow:0px 1px #727272; -webkit-text-shadow:0px 1px #727272; background: rgb(197,197,197); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M1YzVjNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5Njk2OTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(197,197,197) 0%, rgb(150,150,150) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(197,197,197)), color-stop(100%,rgb(150,150,150))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(197,197,197) 0%,rgb(150,150,150) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5c5c5', endColorstr='#969696',GradientType=0 ); /* IE6-8 */
+}
+.contactus_form dl dd .bt_clear:hover{color:#000;}
+
+.dash_mid_wrapp .dash_title h3 span {
+    color: #231f20;font: bold 18px "Myriad Pro","Trebuchet MS",arial,Helvetica,sans-serif;padding: 0;
+}

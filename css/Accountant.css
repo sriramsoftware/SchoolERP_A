@@ -1,0 +1,484 @@
+/*~~~~~~ Accountant Dashboard page~~~~~~~~*/
+
+.quick_link_box dl dd .elect_ico {
+    height: 88px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+	background:url(../img/electricity_icon.png) no-repeat 0 0;
+}
+.quick_link_box dl dd .elect_ico a{height:88px; width:88px; display:block;}
+.quick_link_box dl dd .elect_ico:hover {
+     cursor:pointer
+}
+.quick_link_box dl dd .settings_ico {
+    height: 88px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+	background:url(../img/setting_icon.png) no-repeat 0 0;
+}
+.quick_link_box dl dd .settings_ico:hover {
+   cursor:pointer
+}
+.quick_link_box dl dd .settings_ico a{height:88px; width:88px; display:block;}
+
+/*~~~~~~ Students Fees and Payments~~~~~~~~*/
+.bottom_bor{ border-bottom:1px solid #ccc; padding-bottom:12px; margin-bottom:20px;}
+.acc_title_2{ font:bold 14px Arial, Helvetica, sans-serif; color:#86ae18; padding:12px 0px; margin-bottom:20px; border-bottom:1px solid #d8d6d0;}
+.marg20{ margin-bottom:20px;}
+.paid_amt{background:url(../img/green_tick.png) no-repeat 0 0; height:22px; padding-left:28px; float:left; }
+.unpaid_amt{background:url(../img/blue_clock.png) no-repeat 0 0; height:22px; padding-left:28px; float:left; }
+.detail_bt {
+    background: -moz-linear-gradient(center top , #FFE25C 0%, #FFCC12 100%) repeat scroll 0 0 transparent;
+    border: 0 solid #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px #C59902;
+    color: #7F5A00;
+    cursor: pointer;
+    font: 13px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    padding: 2px 5px;
+    text-shadow: 0 1px #E5B80D;
+    text-transform: uppercase;
+}
+.detail_bt a {
+    color: #7F5A00;
+}
+.detail_bt a:hover {
+    color: #FFFFFF;
+}
+.stu_fees_details{ font:bold 12px Arial, Helvetica, sans-serif; color:#fff;}
+.stu_fees_details span{ font:bold 12px Arial, Helvetica, sans-serif; color:#000;}
+.stu_fees_block{ width:200px; float:left;}
+.acc_select {
+    border: 1px solid #C7C6C2;
+    border-radius: 7px 7px 7px 7px;
+    color: #656565;
+    float: left;
+    height: 30px;
+    padding:5px;
+	width:75px!important;
+	margin:0px!important;
+}
+
+/*~~~~~~ Staff and  salary~~~~~~~~*/
+.accountant_nav_wrap {
+    background: url("../img/accountant_sprite.png") no-repeat scroll 0 0 transparent;
+    height: 173px;
+    margin-bottom: 30px;
+    width: 738px;
+}
+.accountant_nav_wrap ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.accountant_nav_wrap ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 1px;
+    text-align: center;
+}
+.accountant_nav_wrap ul li a {
+    color: #0D8EB9;
+    font: bold 12px/40px Arial,Helvetica,sans-serif;
+}
+.accountant_nav_wrap ul li a:hover {
+    color: #454545;
+}
+.accountant_nav_wrap ul li#tc a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.accountant_nav_wrap ul li#tc a:hover {
+    background: url("../img/accountant_sprite.png") no-repeat scroll 0 -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.accountant_nav_wrap ul li#tc .active {
+    background: url("../img/accountant_sprite.png") no-repeat scroll 0 -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.accountant_nav_wrap ul li#td a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.accountant_nav_wrap ul li#td a:hover {
+    background: url("../img/accountant_sprite.png") no-repeat scroll -181px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.accountant_nav_wrap ul li#td .active {
+    background: url("../img/accountant_sprite.png") no-repeat scroll -181px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.accountant_nav_wrap ul li#ld a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.accountant_nav_wrap ul li#ld a:hover {
+    background: url("../img/accountant_sprite.png") no-repeat scroll -373px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.accountant_nav_wrap ul li#ld .active {
+    background: url("../img/accountant_sprite.png") no-repeat scroll -373px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.accountant_nav_wrap ul li#labo a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.accountant_nav_wrap ul li#labo a:hover {
+    background: url("../img/accountant_sprite.png") no-repeat scroll -557px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.accountant_nav_wrap ul li#labo .active {
+	background: url("../img/accountant_sprite.png") no-repeat scroll -557px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+
+
+/*~~~~~~ Electricity and Watersupply ~~~~~~~~*/
+
+.electricity_nav_wrap {
+    background: url("../img/electricity_sprite.png") no-repeat scroll 0 0 transparent;
+    height: 173px;
+    margin-bottom: 30px;
+    width: 738px;
+}
+.electricity_nav_wrap ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.electricity_nav_wrap ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 1px;
+    text-align: center;
+}
+.electricity_nav_wrap ul li a {
+    color: #0D8EB9;
+    font: bold 12px/40px Arial,Helvetica,sans-serif;
+}
+.electricity_nav_wrap ul li a:hover {
+    color: #454545;
+}
+.electricity_nav_wrap ul li#tc a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.electricity_nav_wrap ul li#tc a:hover {
+    background: url("../img/electricity_sprite.png") no-repeat scroll 0 -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.electricity_nav_wrap ul li#tc .active {
+    background: url("../img/electricity_sprite.png") no-repeat scroll 0 -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.electricity_nav_wrap ul li#td a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.electricity_nav_wrap ul li#td a:hover {
+    background: url("../img/electricity_sprite.png") no-repeat scroll -181px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.electricity_nav_wrap ul li#td .active {
+    background: url("../img/electricity_sprite.png") no-repeat scroll -181px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.electricity_nav_wrap ul li#ld a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.electricity_nav_wrap ul li#ld a:hover {
+    background: url("../img/electricity_sprite.png") no-repeat scroll -373px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.electricity_nav_wrap ul li#ld .active {
+    background: url("../img/electricity_sprite.png") no-repeat scroll -373px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.electricity_nav_wrap ul li#labo a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.electricity_nav_wrap ul li#labo a:hover {
+    background: url("../img/electricity_sprite.png") no-repeat scroll -557px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.electricity_nav_wrap ul li#labo .active {
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.elect_heading{ font:bold 14px Arial, Helvetica, sans-serif; color:#A3238F; padding-bottom:12px; margin-bottom:15px; border-bottom:1px solid #ccc;}
+
+.yellowtext{ font:bold 14px Arial, Helvetica, sans-serif; color:#A3238F; margin-bottom:12px; }
+
+.gry_btn {
+   background: #d8d8d8; /* Old browsers */
+background: -moz-linear-gradient(top,  #d8d8d8 0%, #c3c3c3 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8d8d8), color-stop(100%,#c3c3c3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d8d8d8 0%,#c3c3c3 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d8d8d8 0%,#c3c3c3 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d8d8d8 0%,#c3c3c3 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d8d8d8 0%,#c3c3c3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', endColorstr='#c3c3c3',GradientType=0 ); /* IE6-9 */
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 0 0 #BDBDBD;
+    color: #454545;
+    cursor: pointer;
+    float: right;
+    font: 13px/23px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+	border:none;
+	margin-left:10px;
+}
+.gry_btn:hover {
+    color: #000000;
+
+}
+
+.yellow_btn {
+   background: #ffde50; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffde50 0%, #ffcf1e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffde50), color-stop(100%,#ffcf1e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffde50 0%,#ffcf1e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffde50 0%,#ffcf1e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffde50 0%,#ffcf1e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffde50 0%,#ffcf1e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffde50', endColorstr='#ffcf1e',GradientType=0 ); /* IE6-9 */
+     border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 0 0 #BDBDBD;
+    color: #454545;
+    cursor: pointer;
+    float: right;
+    font: 13px/23px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+	border:none;
+}
+.yellow_btn:hover {
+    color: #FFFFFF;
+}
+
+
+
+/*~~~~~~ Salary Details~~~~~~~~*/
+.genral_wrapper{width:700px;}
+.genral_wrapper dl{ width:100%; margin-bottom:20px;}
+.genral_wrapper dl dt{ width:319px; float:left;}
+.genral_wrapper dl dd{ width:300px; font-weight:bold; float:left;}
+.acc_select_box {
+    border: 1px solid #C7C6C2;
+    border-radius: 10px 10px 10px 10px;
+    color: #656565;
+    height: 28px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+}
+.personal_details_block{ width:670px;  background: url("../img/dark_gray_texture.jpg") repeat scroll left top transparent; padding:10px; border: 1px solid #BAB7AA; margin-bottom:25px;}
+.personal_details_block .left{ width:170px;}
+.personal_details_block .right{ width:490px;}
+.personal_details_block .right .info{ padding-bottom:12px;}
+.blu_txt{ font:bold 15px  Arial, Helvetica, sans-serif; color:#0D8EB9;}
+.pro_small_block{width:163px;}
+.pro_small_block dl{ width:100%; margin-bottom:6px;}
+.pro_small_block dl dt{ width:60px; float:left; padding-right:10px;}
+.pro_small_block dl dd{ width:60px; font-weight:bold; float:left;}
+
+
+/*~~~~~~ School Maintenance ~~~~~~~~*/
+
+.maintenance_nav_wrap {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll 0 0 transparent;
+    height: 173px;
+    margin-bottom: 30px;
+    width: 738px;
+}
+.maintenance_nav_wrap ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.maintenance_nav_wrap ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 1px;
+    text-align: center;
+}
+.maintenance_nav_wrap ul li a {
+    color: #0D8EB9;
+    font: bold 12px/40px Arial,Helvetica,sans-serif;
+}
+.maintenance_nav_wrap ul li a:hover {
+    color: #454545;
+}
+.maintenance_nav_wrap ul li#tc a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.maintenance_nav_wrap ul li#tc a:hover {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll 0 -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.maintenance_nav_wrap ul li#tc .active {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll 0 -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.maintenance_nav_wrap ul li#td a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.maintenance_nav_wrap ul li#td a:hover {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll -181px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.maintenance_nav_wrap ul li#td .active {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll -181px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 191px;
+}
+.maintenance_nav_wrap ul li#ld a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.maintenance_nav_wrap ul li#ld a:hover {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll -373px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.maintenance_nav_wrap ul li#ld .active {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll -373px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 183px;
+}
+.maintenance_nav_wrap ul li#labo a {
+    display: block;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.maintenance_nav_wrap ul li#labo a:hover {
+    background: url("../img/maintenance_sprite.png") no-repeat scroll -557px -183px transparent;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+.maintenance_nav_wrap ul li#labo .active {
+	background: url("../img/maintenance_sprite.png") no-repeat scroll -557px -183px transparent;
+    color: #454545;
+    height: 40px;
+    padding-top: 133px;
+    width: 180px;
+}
+
+
+.yellow_btnSalaryDetails
+ {
+    background: #ffde50; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffde50 0%, #ffcf1e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffde50), color-stop(100%,#ffcf1e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffde50 0%,#ffcf1e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffde50 0%,#ffcf1e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffde50 0%,#ffcf1e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffde50 0%,#ffcf1e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffde50', endColorstr='#ffcf1e',GradientType=0 ); /* IE6-9 */
+     border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 0 0 #BDBDBD;
+    color: #454545;
+    cursor: pointer;
+    float: right;
+    font: 13px/23px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 184px;
+    width: 184px;
+}
+
+ 
+ .yellow_btnSalaryDetails:hover 
+{
+    color: #FFFFFF;
+}
+
+

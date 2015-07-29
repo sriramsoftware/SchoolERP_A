@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+
+public partial class TMSchoolMgmt_AccountManager_ViewAccoutantSalary : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        ((System.Web.UI.HtmlControls.HtmlAnchor)Master.FindControl("SalaryDetails")).Attributes.Add("class", "Liactive");
+        ((System.Web.UI.HtmlControls.HtmlGenericControl)Master.FindControl("ListMyAccount")).Style.Add("display", "block");
+        if (Session["UserId"] == null)
+        {
+            Response.Redirect("../Default.aspx?var=Logout");
+        }
+        if (!IsPostBack)
+        {
+
+            GetSalaryDetails();
+        }
+    }
+
+    protected void GetSalaryDetails()
+    {
+        try
+        {
+
+            DataTable dt = TMSSalaryDetails.GetSalaryDetails(null, Convert.ToInt64(Session["UserId"]), "7", null).Tables[0];
+
+            if (dt.Rows.Count > 0)
+            {
+                HiddId.Value = dt.Rows[0]["SD_DetailsId"].ToString();
+
+                TMSSalaryDetails obj = TMSSalaryDetails.Get(Convert.ToInt64(HiddId.Value));
+                lblBasicSalary.Text = obj.SDBasicSalary.ToString();
+                if (obj.SDSalaryType != null)
+                {
+                    if (obj.SDSalaryType == "Monthly")
+                    {
+                        lblBasicSalryType.Text = "Monthly";
+                    }
+                    else
+                    {
+                        lblBasicSalryType.Text = "Yearly";
+                    }
+
+                }
+                if (obj.SDPFRate != null)
+                {
+                    liratepf.Visible = true;
+                    lirateamountPF.Visible = false;
+
+                    lblPFrateper.Text = obj.SDPFRate.ToString();
+                }
+
+                if (obj.SDPFAmount != null)
+                {
+                    liratepf.Visible = false;
+                    lirateamountPF.Visible = true;
+                    lblPFAmount.Text = obj.SDPFAmount.ToString();
+
+                }
+                if (obj.SDESIRate != null)
+                {
+                    dlrateESI.Visible = true;
+                    dlamountESI.Visible = false;
+                    lblESIrate.Text = obj.SDESIRate.ToString();
+                }
+
+                if (obj.SDESIAmount != null)
+                {
+                    dlrateESI.Visible = false;
+                    dlamountESI.Visible = true;
+                    lblESIamount.Text = obj.SDESIAmount.ToString();
+                }
+
+
+                lblFelxibal.Text = obj.SDLCELFlexibleHours.ToString();
+                lblhalfdayhour.Text = obj.SDSetHalfDayHours.ToString();
+                lblletcomeearlygone.Text = obj.SDLCELConvertedDays.ToString();
+
+                if (obj.SDLCELConvertFullDay != null)
+                {
+
+                    LinumberOfhalfDay.Visible = false;
+                    LinumberOffullDay.Visible = true;
+
+                    lblconvertFullday.Text = obj.SDLCELConvertFullDay.ToString();
+                }
+
+                if (obj.SDLCELCOnvertHalfDay != null)
+                {
+                    LinumberOfhalfDay.Visible = true;
+                    LinumberOffullDay.Visible = false;
+                    lblconvertHalfday.Text = obj.SDLCELCOnvertHalfDay.ToString();
+                }
+            }
+        }
+        catch { }
+    }
+}

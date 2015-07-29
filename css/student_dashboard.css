@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dau_det_box{margin:0px; padding:0px 15px;}
+.dau_det_box h6{color:#df890e; font:bold 13px Arial, Helvetica, sans-serif; margin:5px 0px;}
+.dau_det_box .cont_deta_box{padding-bottom:15px; margin-bottom:10px; background:url(../img/blue_border.png) no-repeat left bottom; font:normal 12px/18px Arial, Helvetica, sans-serif;}
+
+.right_content{width:738px; float:right;}
+.right_content .cont_det_box{background:url(../img/right_nav_bg.jpg) repeat left top; border:1px solid #e7e5dd; padding:14px; margin-bottom:30px;}
+.right_content .cont_det_box dl{margin:0px 0px 5px; padding:0px; width:100%; display:block; font:normal 12px Arial, Helvetica, sans-serif;}
+.right_content .cont_det_box dl dt{width:97px; float:left; margin:0px; padding:0px; font-weight:bold;}
+.right_content .cont_det_box dl dd{width:364px; float:left;}
+.right_content h4{color:#454545; font:normal 25px  "Trebuchet MS", arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:15px;}
+.right_content h4 span{color:#0d8eb9; }
+.right_content h5{color:#454545; font:normal 25px  "Trebuchet MS", arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:15px; background:url(../img/sprite.png) no-repeat -956px -166px; padding:10px 0px 6px 55px;}
+.right_content h5 span{color:#0d8eb9;}
+.right_content h6{color:#454545; font:normal 20px "Trebuchet MS", arial, Helvetica, sans-serif; text-transform:uppercase; margin-bottom:15px; background:url(../img/sprite.png) no-repeat -956px -62px; padding:15px 0px 13px 55px;}
+.right_content h6 span{color:#86ab0e; }
+
+.right_content .stu_quick_link_box{margin:0px 0px 20px; padding:0px 0px 30px; background:url(../img/orng_border.png) no-repeat left bottom;font-weight:bold;font-size:13px;}
+.right_content .stu_quick_link_box dl{margin:0px; padding:0px; width:100%; display:block;}
+.right_content .stu_quick_link_box dl dd{width:20%; float:left; text-align:center; margin-bottom:20px;}
+.right_content .stu_quick_link_box dl dd .icon_box{width:80px; height:88px; text-align:center; margin:0px auto;}
+.right_content .stu_quick_link_box dl dd .icon_box a{width:80px; height:88px; display:block;}
+
+.fun_stff_wrapp{margin:0px; padding:0px; padding-bottom:30px; background:url(../img/blue_border.png) no-repeat left bottom; margin-bottom:30px;}
+.fun_stff_wrapp dl{margin:0px; padding:0px; width:100%; display:block; font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.fun_stff_wrapp dl dd{width:25%; float:left; text-align:center; margin:0px 0px 30px}
+.fun_stff_wrapp .fun_stf_icon_box{width:175px; height:140px; margin:0px auto;}
+.fun_stff_wrapp .fun_stf_icon_box a{width:175px; height:140px; display:block;}
+.stories_icon{width:175px; height:140px; background-position:-315px -280px;}
+.lanews_icon{width:175px; height:140px; background-position:-490px -280px;}
+.gen_know_icon{width:175px; height:140px; background-position:-672px -280px;}
+.worlsmap_icon{width:175px; height:140px; background-position:-317px -465px;}
+.puz_icon{width:175px; height:140px; background-position:-513px -465px;}
+.jujok_icon{width:175px; height:140px; background-position:-696px -465px;}
+
+.birth_day_box{background:url(../img/right_nav_bg.jpg) repeat left top; padding:22px 22px 15px 22px; border:1px solid #e7e5dd;}
+.birth_day_box ul{margin:0px; padding:0px; list-style:none;}
+.birth_day_box ul li{list-style-type:none; float:left; margin-right:36px; width:85px; }
+.birth_day_box ul li img{border:1px solid #bbb5b5; padding:3px; background:#fff;}
+.birth_day_box ul li .stu_name_box{font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#0d8eb9; min-height:35px;}
+
+
+
+/*---- Student Dashboard Fun Staff General Knowledge Page ----*/
+.gkn_nav{margin:0px; padding:0px; width:722px; height:47px; background:url(../img/fun_staff_sprite.png) no-repeat 0px 0px;}
+.gkn_nav ul{margin:0px; padding:0px; list-style:none;}
+.gkn_nav ul li{list-style-type:none; float:left; font:bold 12px/40px Arial, Helvetica, sans-serif; margin-right:5px;}
+.gkn_nav ul li a{color:#454545;}
+.gkn_nav ul li#at a{width:106px; text-align:center; display:block;}
+.gkn_nav ul li#at a:hover{width:106px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat 0px -48px;}
+.gkn_nav ul li#at .active{width:106px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat 0px -48px;}
+.gkn_nav ul li#es a{width:106px; text-align:center; display:block;}
+.gkn_nav ul li#es a:hover{width:106px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -112px -48px;}
+.gkn_nav ul li#es .active{width:106px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -112px -48px;}
+.gkn_nav ul li#hh a{width:110px; text-align:center; display:block;}
+.gkn_nav ul li#hh a:hover{width:110px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -224px -48px;}
+.gkn_nav ul li#hh .active{width:110px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -224px -48px;}
+.gkn_nav ul li#life a{width:63px; text-align:center; display:block;}
+.gkn_nav ul li#life a:hover{width:63px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -340px -48px;}
+.gkn_nav ul li#life .active{width:63px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -340px -48px;}
+.gkn_nav ul li#tm a{width:99px; text-align:center; display:block;}
+.gkn_nav ul li#tm a:hover{width:99px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -409px -48px;}
+.gkn_nav ul li#tm .active{width:99px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -409px -48px;}
+.gkn_nav ul li#his a{width:76px; text-align:center; display:block;}
+.gkn_nav ul li#his a:hover{width:76px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -514px -48px;}
+.gkn_nav ul li#his .active{width:76px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -514px -48px;}
+.gkn_nav ul li#aw a{width:120px; text-align:center; display:block;}
+.gkn_nav ul li#aw a:hover{width:120px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -595px -48px;}
+.gkn_nav ul li#aw .active{width:120px; height:46px; background:url(../img/fun_staff_sprite.png) no-repeat -595px -48px;}
+.fs_hist_wrapp{margin:20px 0px 0px; padding:0px;}
+.fs_hist_wrapp .fs_gk_title{font:normal 17px Arial, Helvetica, sans-serif; margin-bottom:10px;}
+.fs_hist_wrapp dl{margin:0px 0px 15px; padding:0px 0px 15px; border-bottom:1px solid #ededed;}
+.fs_hist_wrapp dl dt{width:464px; float:left; background:url(../img/fun_staff_sprite.png) no-repeat -975px -61px; padding:5px 0px 5px 36px; font:bold 15px Arial, Helvetica, sans-serif; }
+.fs_hist_wrapp dl dd{width:172px; float:right; background:url(../img/fun_staff_sprite.png) no-repeat -970px 0px; padding-left:48px; color:#6aa112; font:bold 15px/30px Arial, Helvetica, sans-serif;}
+
+
+/*---- Student Dashboard Fun Staff Latest News Page ----*/
+.fs_latnews_wrapp{margin:0px; padding:0px;}
+.fs_latnews_wrapp dl{margin:0px 0px 20px; padding:0px 0px 20px; background:url(../img/orng_border.png) no-repeat left bottom;}
+.fs_latnews_wrapp dl dt{width:296px; height:290px; background:url(../img/fun_staff_sprite.png) no-repeat 0px -110px; float:left;}
+.fs_latnews_wrapp dl dt .img_box{width:250px; height:250px; margin:35px 0px 0px 41px;}
+.fs_latnews_wrapp dl dd{width:415px; float:right;}
+.fs_latnews_wrapp dl dd .news_title{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-top:25px;}
+.fs_latnews_wrapp dl dd .news_date{color:#9b9a9a; font:italic 12px Arial, Helvetica, sans-serif; margin-bottom:15px;}
+.fs_latnews_wrapp dl dd article{text-align:justify; margin-bottom:15px;}
+
+
+/*---- Student Dashboard Fun Staff Stories Page ----*/
+.fs_stories_wrapp{margin:0px; padding:0px;}
+.fs_stories_wrapp dl{margin:0px 0px 20px; padding:0px 0px 20px; background:url(../img/orng_border.png) repeat-x left bottom;}
+.fs_stories_wrapp dl dt{width:192px; height:193px;  float:left; position:relative;}
+.fs_stories_wrapp dl dt .img_box{width:156px; height:156px; margin:23px 0px 0px 19px;}
+.fs_stories_wrapp dl dt .img_frame_box{width:192px; height:193px; background:url(../img/fun_staff_sprite.png) no-repeat -306px -131px; position:absolute; left:0px; top:0px;}
+.fs_stories_wrapp dl dd{width:530px; float:right;}
+.fs_stories_wrapp dl dd .storie_title{font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; margin-top:17px;}
+.fs_stories_wrapp dl dd article{text-align:justify; margin-bottom:15px;}
+.fs_stories_wrapp dl dd .rs_box{text-align:right;}
+
+
+/*---- Student Dashboard Fun Staff World Map Page ----*/
+.ww_map_sort_box{margin:0px 0px 20px; padding:10px 0px; border-top:1px solid #d8d6d0; border-bottom:1px solid #d8d6d0; }
+.ww_map_sort_box select{width:186px; height:30px; border:1px solid #c7c6c2; color:#656565; padding:5px; float:left; border-radius:7px; margin-right:10px;}
+.ww_map_sort_box input[type=submit]{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 15px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:4px 10px; box-shadow:0px 1px #c39900; -moz-box-shadow:0px 1px #c39900; -webkit-box-shadow:0px 1px #c39900; cursor:pointer; text-shadow:0px 1px #e5b80d; -moz-text-shadow:0px 1px #e5b80d; -webkit-text-shadow:0px 1px #e5b80d;}
+.ww_map_sort_box input[type=submit]:hover{color:#fff;}
+.ww_map_box{text-align:center;}
+.ww_map_box article{font:normal 14px Arial, Helvetica, sans-serif;}
+.ww_map_box .ww_map_img_box{width:577px; height:416px; border:1px solid #c5c3bd; margin:13px auto;}
+
+
+/*---- Student Dashboard Fun Staff Just Joking Page ----*/
+.just_joking_wrapp{margin:0px; padding:0px;}
+.just_joking_wrapp dl{margin:0px 0px 15px; padding:0px 0px 15px; background:url(../img/orng_border.png) repeat-x left bottom;}
+.just_joking_wrapp dl dd{padding-right:222px; background:url(../img/jj_icon_01.png) no-repeat right top;}
+.just_joking_wrapp dl dt{padding-left:222px; background:url(../img/jj_icon_02.png) no-repeat left top;}
+.just_joking_wrapp article{line-height:22px; font-size:14px;}
+.just_joking_wrapp .blue_color{color:#0d8eb9;}
+.just_joking_wrapp .green_color{color:#86ae18;}
+
+
+/*--- Student Dashboard Fun Staff Puzzle Page ----*/
+.fs_puzzle_wrapp{margin:0px; padding:0px;}
+.fs_puzzle_wrapp dl{margin:0px 0px 15px; padding:0px 0px 15px; background:url(../img/orng_border.png) repeat-x left bottom;}
+.fs_puzzle_wrapp dl dd{float:left;}
+.fs_puzzle_wrapp .col1{width:113px; margin-right:13px;}
+.fs_puzzle_wrapp .col1 .img_box{border:1px solid #e7e7e7; padding:3px; width:106px; height:106px;}
+.fs_puzzle_wrapp .col2{width:480px; min-height:107px; height:auto!important; border-right:1px solid #d6d6d4; padding-right:30px;}
+.fs_puzzle_wrapp .col2 .game_title{font-size:14px; margin-bottom:10px;}
+.fs_puzzle_wrapp .col2 article{margin-bottom:10px;}
+.fs_puzzle_wrapp .col2 .cat_name_box{color:#868686; margin-bottom:10px;}
+.fs_puzzle_wrapp .col3{width:95px; text-align:right; padding-top:40px;}
+.fs_puzzle_wrapp .col3 a{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:5px 20px; box-shadow:0px 1px #c39900; -moz-box-shadow:0px 1px #c39900; -webkit-box-shadow:0px 1px #c39900; cursor:pointer; text-shadow:0px 1px #e5b80d; -moz-text-shadow:0px 1px #e5b80d; -webkit-text-shadow:0px 1px #e5b80d;}
+.fs_puzzle_wrapp .col3 a:hover{color:#fff;}
+
+/*--- Student Dashboard Fun Staff Puzzle Details Page ----*/
+.puz_det_wrapp{margin:0px; padding:0px; text-align:center;}
+.puz_det_wrapp .game_wrapp{width:666px; height:480px; border:1px solid #c5c3bd; margin:15px auto;}
+.puz_det_wrapp a{background: rgb(255,226,92); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTI1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNjMTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(255,226,92) 0%, rgb(255,204,18) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,226,92)), color-stop(100%,rgb(255,204,18))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* IE10+ */
+background: linear-gradient(top,  rgb(255,226,92) 0%,rgb(255,204,18) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe25c', endColorstr='#ffcc12',GradientType=0 ); /* IE6-8 */ border:0px solid #fff; color:#7f5a00;  font:normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; padding:5px 20px; box-shadow:0px 1px #c39900; -moz-box-shadow:0px 1px #c39900; -webkit-box-shadow:0px 1px #c39900; cursor:pointer; text-shadow:0px 1px #e5b80d; -moz-text-shadow:0px 1px #e5b80d; -webkit-text-shadow:0px 1px #e5b80d;}
+.puz_det_wrapp a:hover{color:#fff;}
