@@ -134,5 +134,21 @@ public partial class TMSSchoolCategory
         ds = db.ExecuteDataSet(dbCommand);
         return ds;
     }
+
+
+    public static DataSet GetAllSchoolCategory()
+    {
+        DataSet ds;
+        Database db;
+        string sqlCommand;
+        DbCommand dbCommand;
+        db = DatabaseFactory.CreateDatabase();
+        sqlCommand = "[dbo].TMS_GetAllSchoolCategory";
+        dbCommand = db.GetStoredProcCommand(sqlCommand);
+        ds = db.ExecuteDataSet(dbCommand);
+        return ds;
+    }
+
+
 }
 
