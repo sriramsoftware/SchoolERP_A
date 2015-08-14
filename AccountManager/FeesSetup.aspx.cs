@@ -112,10 +112,14 @@ public partial class AccountManager_FeesSetup : System.Web.UI.Page
 
         if (feeHeadID != 0)
         {
-            TMSFeesHeadMaster objFeeHead = TMSFeesHeadMaster.Get(feeHeadID);
-            objFeeHead.FeeHeadName = ((TextBox) row.FindControl("txtFeeHeadName")).Text;
-            objFeeHead.FeeCategoryID = Convert.ToInt32((row.FindControl("drpFeeCategoryName") as DropDownList).SelectedValue);
-            objFeeHead.Update();
+            TMSFeesSetup objFeesSetup = new TMSFeesSetup();
+            objFeesSetup.FeesAmount = Convert.ToDecimal(((TextBox)grdFeesSetup.FooterRow.FindControl("txtFeesAmount")).Text);
+            objFeesSetup.SchoolCategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpdrpSchoolCategory")).SelectedValue);
+            objFeesSetup.SchoolSubcategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpSchoolSubCategoryName")).SelectedValue);
+            objFeesSetup.FeesCategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpFeeCategoryName")).SelectedValue);
+            objFeesSetup.FeesHeadID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpFeeHeadName")).SelectedValue);
+            objFeesSetup.FeesTermID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpFeeTerm")).SelectedValue);
+            objFeesSetup.Update();
         }
 
         grdFeesSetup.EditIndex = -1;
@@ -142,12 +146,16 @@ public partial class AccountManager_FeesSetup : System.Web.UI.Page
     {
         if (e.CommandName.Equals("AddNew"))
         {
-            TMSFeesHeadMaster objFeeHead = new TMSFeesHeadMaster();
-            objFeeHead.FeeHeadName = ((TextBox)grdFeesSetup.FooterRow.FindControl("txtNewFeeHeadName")).Text;
-            objFeeHead.FeeCategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpNewFeeCategoryName")).SelectedValue);
-            objFeeHead.CreatedDate = DateTime.Now;
-            objFeeHead.IsDelete = false;
-            objFeeHead.Insert();
+            TMSFeesSetup objFeesSetup = new TMSFeesSetup();
+            objFeesSetup.FeesAmount = Convert.ToDecimal(((TextBox)grdFeesSetup.FooterRow.FindControl("txtNewFeesAmount")).Text);
+            objFeesSetup.SchoolCategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpNewdrpSchoolCategory")).SelectedValue);
+            objFeesSetup.SchoolSubcategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpNewSchoolSubCategoryName")).SelectedValue);
+            objFeesSetup.FeesCategoryID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpNewFeeCategoryName")).SelectedValue);
+            objFeesSetup.FeesHeadID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpNewFeeHeadName")).SelectedValue);
+            objFeesSetup.FeesTermID = Convert.ToInt32(((DropDownList)grdFeesSetup.FooterRow.FindControl("drpNewFeeTerm")).SelectedValue);
+            objFeesSetup.CreatedDate = DateTime.Now;
+            objFeesSetup.IsDelete = false;
+            objFeesSetup.Insert();
             grdFeesSetup.EditIndex = -1;
             BindFeesSetup();
         }

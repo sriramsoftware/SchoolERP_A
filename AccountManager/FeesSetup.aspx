@@ -106,11 +106,11 @@
                     <asp:DropDownList CausesValidation="True" ID="drpFeeTerm" runat="server" >
                                             <asp:ListItem Value="0">Select</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:RequiredFieldValidator ID="rfvFeeHeadName" runat="server" ControlToValidate="drpFeeTerm"
+                    <asp:RequiredFieldValidator ID="rfvFeeTerm" runat="server" ControlToValidate="drpFeeTerm"
                         Text="*" ValidationGroup="vupdate" />
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:Label ID="lblFeeHeadName" runat="server" Text='<%# Bind("FeesTerm") %>'></asp:Label>
+                    <asp:Label ID="lblFeeTerm" runat="server" Text='<%# Bind("FeesTerm") %>'></asp:Label>
                 </ItemTemplate>
                 <FooterTemplate>
                     <asp:DropDownList CausesValidation="True" ID="drpNewFeeTerm" runat="server" >

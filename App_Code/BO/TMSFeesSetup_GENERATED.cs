@@ -4,7 +4,7 @@
 /* This file was automatically generated using Code Author.                 */
 /* Any manual changes to this file will be overwritten by a automated tool. */
 /*                                                                          */
-/* Date Generated: 25/07/2015 04:17:54 PM                                    */
+/* Date Generated: 02/08/2015 10:02:13 PM                                    */
 /*                                                                          */
 /* www.CodeAuthor.org                                                       */
 /****************************************************************************/
@@ -33,6 +33,7 @@ public partial class TMSFeesSetup
 	#region Fields
 	private System.Int64? _feesSetupID;
 	private System.Int32? _schoolCategoryID;
+	private System.Int32? _schoolSubcategoryID;
 	private System.Int32? _feesCategoryID;
 	private System.Int64? _feesTermID;
 	private System.Int32? _feesHeadID;
@@ -66,6 +67,18 @@ public partial class TMSFeesSetup
 		set
 		{
 			_schoolCategoryID = value;
+		}
+	}
+	
+	public System.Int32? SchoolSubcategoryID
+	{
+		get
+		{
+			return _schoolSubcategoryID;
+		}
+		set
+		{
+			_schoolSubcategoryID = value;
 		}
 	}
 	
@@ -174,6 +187,7 @@ public partial class TMSFeesSetup
 		
 		ds.Tables[TABLE_NAME].Columns.Add("FeesSetupID", typeof(System.Int64) );
 		ds.Tables[TABLE_NAME].Columns.Add("SchoolCategoryID", typeof(System.Int32) );
+		ds.Tables[TABLE_NAME].Columns.Add("SchoolSubcategoryID", typeof(System.Int32) );
 		ds.Tables[TABLE_NAME].Columns.Add("FeesCategoryID", typeof(System.Int32) );
 		ds.Tables[TABLE_NAME].Columns.Add("FeesTermID", typeof(System.Int64) );
 		ds.Tables[TABLE_NAME].Columns.Add("FeesHeadID", typeof(System.Int32) );
@@ -193,6 +207,11 @@ public partial class TMSFeesSetup
 		dr["SchoolCategoryID"] = DBNull.Value;
 		else
 		dr["SchoolCategoryID"] = SchoolCategoryID;
+		
+		if (SchoolSubcategoryID == null)
+		dr["SchoolSubcategoryID"] = DBNull.Value;
+		else
+		dr["SchoolSubcategoryID"] = SchoolSubcategoryID;
 		
 		if (FeesCategoryID == null)
 		dr["FeesCategoryID"] = DBNull.Value;
@@ -238,6 +257,7 @@ public partial class TMSFeesSetup
 	{
 		FeesSetupID = dr["FeesSetupID"] != DBNull.Value ? Convert.ToInt64(dr["FeesSetupID"]) : FeesSetupID = null;
 		SchoolCategoryID = dr["SchoolCategoryID"] != DBNull.Value ? Convert.ToInt32(dr["SchoolCategoryID"]) : SchoolCategoryID = null;
+		SchoolSubcategoryID = dr["SchoolSubcategoryID"] != DBNull.Value ? Convert.ToInt32(dr["SchoolSubcategoryID"]) : SchoolSubcategoryID = null;
 		FeesCategoryID = dr["FeesCategoryID"] != DBNull.Value ? Convert.ToInt32(dr["FeesCategoryID"]) : FeesCategoryID = null;
 		FeesTermID = dr["FeesTermID"] != DBNull.Value ? Convert.ToInt64(dr["FeesTermID"]) : FeesTermID = null;
 		FeesHeadID = dr["FeesHeadID"] != DBNull.Value ? Convert.ToInt32(dr["FeesHeadID"]) : FeesHeadID = null;
@@ -313,7 +333,7 @@ public partial class TMSFeesSetup
 	}
 	
 	#region INSERT
-	public void Insert(System.Int32? schoolCategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete, DbTransaction transaction)
+	public void Insert(System.Int32? schoolCategoryID, System.Int32? schoolSubcategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete, DbTransaction transaction)
 	{
 		Database db;
 		string sqlCommand;
@@ -322,7 +342,7 @@ public partial class TMSFeesSetup
 		
 		db = DatabaseFactory.CreateDatabase();
 		sqlCommand = "[dbo].gspTMSFeesSetup_INSERT";
-		dbCommand = db.GetStoredProcCommand(sqlCommand, schoolCategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete);
+		dbCommand = db.GetStoredProcCommand(sqlCommand, schoolCategoryID, schoolSubcategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete);
 		
 		if (transaction == null)
 		this.FeesSetupID = Convert.ToInt64(db.ExecuteScalar(dbCommand));
@@ -332,9 +352,9 @@ public partial class TMSFeesSetup
 	}
 	
 	[DataObjectMethodAttribute(DataObjectMethodType.Insert, true)]
-	public void Insert(System.Int32? schoolCategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete)
+	public void Insert(System.Int32? schoolCategoryID, System.Int32? schoolSubcategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete)
 	{
-		Insert(schoolCategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete, null);
+		Insert(schoolCategoryID, schoolSubcategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete, null);
 	}
 	/// <summary>
 	/// Insert current TMSFeesSetup to database.
@@ -342,7 +362,7 @@ public partial class TMSFeesSetup
 	/// <param name="transaction">optional SQL Transaction</param>
 	public void Insert(DbTransaction transaction)
 	{
-		Insert(SchoolCategoryID, FeesCategoryID, FeesTermID, FeesHeadID, StudentTypeID, FeesAmount, CreatedDate, IsDelete, transaction);
+		Insert(SchoolCategoryID, SchoolSubcategoryID, FeesCategoryID, FeesTermID, FeesHeadID, StudentTypeID, FeesAmount, CreatedDate, IsDelete, transaction);
 	}
 	
 	/// <summary>
@@ -356,7 +376,7 @@ public partial class TMSFeesSetup
 	
 	
 	#region UPDATE
-	public static void Update(System.Int64? feesSetupID, System.Int32? schoolCategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete, DbTransaction transaction)
+	public static void Update(System.Int64? feesSetupID, System.Int32? schoolCategoryID, System.Int32? schoolSubcategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete, DbTransaction transaction)
 	{
 		DataSet ds;
 		Database db;
@@ -370,6 +390,7 @@ public partial class TMSFeesSetup
 		db.DiscoverParameters(dbCommand);
 		dbCommand.Parameters["@feesSetupID"].Value = feesSetupID;
 		dbCommand.Parameters["@schoolCategoryID"].Value = schoolCategoryID;
+		dbCommand.Parameters["@schoolSubcategoryID"].Value = schoolSubcategoryID;
 		dbCommand.Parameters["@feesCategoryID"].Value = feesCategoryID;
 		dbCommand.Parameters["@feesTermID"].Value = feesTermID;
 		dbCommand.Parameters["@feesHeadID"].Value = feesHeadID;
@@ -386,9 +407,9 @@ public partial class TMSFeesSetup
 	}
 	
 	[DataObjectMethodAttribute(DataObjectMethodType.Update, true)]
-	public static void Update(System.Int64? feesSetupID, System.Int32? schoolCategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete)
+	public static void Update(System.Int64? feesSetupID, System.Int32? schoolCategoryID, System.Int32? schoolSubcategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete)
 	{
-		Update(feesSetupID, schoolCategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete, null);
+		Update(feesSetupID, schoolCategoryID, schoolSubcategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete, null);
 	}
 	
 	public static void Update(TMSFeesSetup tMSFeesSetup)
@@ -419,6 +440,7 @@ public partial class TMSFeesSetup
 		db.DiscoverParameters(dbCommand);
 		dbCommand.Parameters["@feesSetupID"].SourceColumn = "FeesSetupID";
 		dbCommand.Parameters["@schoolCategoryID"].SourceColumn = "SchoolCategoryID";
+		dbCommand.Parameters["@schoolSubcategoryID"].SourceColumn = "SchoolSubcategoryID";
 		dbCommand.Parameters["@feesCategoryID"].SourceColumn = "FeesCategoryID";
 		dbCommand.Parameters["@feesTermID"].SourceColumn = "FeesTermID";
 		dbCommand.Parameters["@feesHeadID"].SourceColumn = "FeesHeadID";
@@ -519,7 +541,7 @@ public partial class TMSFeesSetup
 	
 	#region SEARCH
 	[DataObjectMethodAttribute(DataObjectMethodType.Select, false)]
-	public static TMSFeesSetup[] Search(System.Int64? feesSetupID, System.Int32? schoolCategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete)
+	public static TMSFeesSetup[] Search(System.Int64? feesSetupID, System.Int32? schoolCategoryID, System.Int32? schoolSubcategoryID, System.Int32? feesCategoryID, System.Int64? feesTermID, System.Int32? feesHeadID, System.Int32? studentTypeID, System.Decimal? feesAmount, System.DateTime? createdDate, System.Boolean? isDelete)
 	{
 		DataSet ds;
 		Database db;
@@ -529,7 +551,7 @@ public partial class TMSFeesSetup
 		
 		db = DatabaseFactory.CreateDatabase();
 		sqlCommand = "[dbo].gspTMSFeesSetup_SEARCH";
-		dbCommand = db.GetStoredProcCommand(sqlCommand, feesSetupID, schoolCategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete);
+		dbCommand = db.GetStoredProcCommand(sqlCommand, feesSetupID, schoolCategoryID, schoolSubcategoryID, feesCategoryID, feesTermID, feesHeadID, studentTypeID, feesAmount, createdDate, isDelete);
 		
 		ds = db.ExecuteDataSet(dbCommand);
 		ds.Tables[0].TableName = TABLE_NAME;
@@ -539,7 +561,7 @@ public partial class TMSFeesSetup
 	
 	public static TMSFeesSetup[] Search(TMSFeesSetup searchObject)
 	{
-		return Search ( searchObject.FeesSetupID, searchObject.SchoolCategoryID, searchObject.FeesCategoryID, searchObject.FeesTermID, searchObject.FeesHeadID, searchObject.StudentTypeID, searchObject.FeesAmount, searchObject.CreatedDate, searchObject.IsDelete);
+		return Search ( searchObject.FeesSetupID, searchObject.SchoolCategoryID, searchObject.SchoolSubcategoryID, searchObject.FeesCategoryID, searchObject.FeesTermID, searchObject.FeesHeadID, searchObject.StudentTypeID, searchObject.FeesAmount, searchObject.CreatedDate, searchObject.IsDelete);
 	}
 	
 	/// <summary>
@@ -549,7 +571,7 @@ public partial class TMSFeesSetup
 	[DataObjectMethodAttribute(DataObjectMethodType.Select, true)]
 	public static TMSFeesSetup[] Search()
 	{
-		return Search ( null, null, null, null, null, null, null, null, null);
+		return Search ( null, null, null, null, null, null, null, null, null, null);
 	}
 	
 	#endregion

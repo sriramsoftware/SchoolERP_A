@@ -4,7 +4,7 @@
 /* This file was automatically generated using Code Author.                 */
 /* Any manual changes to this file will be overwritten by a automated tool. */
 /*                                                                          */
-/* Date Generated: 25/07/2015 04:17:54 PM                                    */
+/* Date Generated: 02/08/2015 10:02:13 PM                                    */
 /*                                                                          */
 /* www.CodeAuthor.org                                                       */
 /****************************************************************************/
@@ -19,6 +19,7 @@ GO
 CREATE PROCEDURE [dbo].gspTMSFeesSetup_INSERT
 (
 @schoolCategoryID AS int = null,
+@schoolSubcategoryID AS int = null,
 @feesCategoryID AS int = null,
 @feesTermID AS bigint = null,
 @feesHeadID AS int = null,
@@ -33,6 +34,7 @@ INSERT INTO
   [dbo].[TMS_FeesSetup]
 (
   [SchoolCategoryID],
+  [SchoolSubcategoryID],
   [FeesCategoryID],
   [FeesTermID],
   [FeesHeadID],
@@ -44,6 +46,7 @@ INSERT INTO
 VALUES
 (
   @schoolCategoryID,
+  @schoolSubcategoryID,
   @feesCategoryID,
   @feesTermID,
   @feesHeadID,
@@ -92,6 +95,7 @@ CREATE PROCEDURE [dbo].gspTMSFeesSetup_UPDATE
 (
 @feesSetupID bigint = null,
 @schoolCategoryID int = null,
+@schoolSubcategoryID int = null,
 @feesCategoryID int = null,
 @feesTermID bigint = null,
 @feesHeadID int = null,
@@ -106,6 +110,7 @@ UPDATE
   [dbo].[TMS_FeesSetup]
 SET
   [SchoolCategoryID] = @schoolCategoryID,
+  [SchoolSubcategoryID] = @schoolSubcategoryID,
   [FeesCategoryID] = @feesCategoryID,
   [FeesTermID] = @feesTermID,
   [FeesHeadID] = @feesHeadID,
@@ -151,6 +156,7 @@ CREATE PROCEDURE [dbo].gspTMSFeesSetup_SEARCH
 (
 @feesSetupID bigint = null,
 @schoolCategoryID int = null,
+@schoolSubcategoryID int = null,
 @feesCategoryID int = null,
 @feesTermID bigint = null,
 @feesHeadID int = null,
@@ -169,6 +175,8 @@ WHERE
   (@feesSetupID IS NULL OR [FeesSetupID] = @feesSetupID)
 AND
   (@schoolCategoryID IS NULL OR [SchoolCategoryID] = @schoolCategoryID)
+AND
+  (@schoolSubcategoryID IS NULL OR [SchoolSubcategoryID] = @schoolSubcategoryID)
 AND
   (@feesCategoryID IS NULL OR [FeesCategoryID] = @feesCategoryID)
 AND
